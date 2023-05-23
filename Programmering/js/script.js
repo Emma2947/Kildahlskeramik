@@ -12,6 +12,7 @@
 
 
 //Skrifttype
+
   (function(d) {
     var config = {
       kitId: 'uex2dst',
@@ -23,6 +24,7 @@
 
 
 //Parallax
+
 document.addEventListener('DOMContentLoaded', function() {
     var parallaxImage = document.querySelector('.parallax-image');
   
