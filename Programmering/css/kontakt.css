@@ -70,10 +70,32 @@ body {
         right: 0px;
         top: 10px;
     }
-   
-
-
-
+   /*Styling af pop-up confirmation*/
+    .confirmation-message {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #f5efeb;
+      padding: 20px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+ /*Styling af markedskalender*/
+     .kalender{
+     height: 300px;
+  }  
+   /*Styling af knap retur to Om Maria*/
+  .tilage-til-om-maria  {
+      text-decoration: none;
+      color: #7f5849;
+      font-size: 30px;
+      border-style:double;
+      padding-left: 5%;
+      padding-right: 15%;
+    }
+  
 
      /* Footer */
 
