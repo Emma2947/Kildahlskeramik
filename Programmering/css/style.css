@@ -16,6 +16,18 @@ font-style: normal;
     background-color: #f9f3ef;
 }
 
+/*Styling af billede bagved menupunkter */
+#menu {
+  background-image: url(img/tre-gule-kopper-med-unikke-hanke.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+  
+  #menu li {
+    position: relative;
+    z-index: 1;
+  }
+
 /*Styling af Navigationen og burgermenuen*/
 
 #topnav {
