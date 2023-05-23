@@ -1,3 +1,404 @@
-.farvepalette img {
-    width: 100%;
+body {
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+        p {
+            font-family: "kozuka-gothic-pro", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+    
+    .mobile-container {
+        max-width: 480px;
+        color: #7f5849;
+        margin: 0;
+        background-color: #f9f3ef;
+    }
+    
+    /*Styling af Navigationen og burgermenuen*/
+    
+    #topnav {
+        overflow: hidden;
+        position: relative;
+       
+        z-index: 100000;
+        background-color: #f9f3ef;
+      }
+    
+    nav img {
+        width: 100px;
+    }
+    
+    #menu {
+        display: none;
+        z-index: 9999;
+        padding-inline-start: 0;
+      }
+    
+    nav li {
+        list-style-type: none;
+        z-index:9999;
+        text-align: center;
+      }
+    
+      #menu a {
+        color: #7f5849;
+        text-decoration: none;
+        font-size: 15px;
+      }
+    
+      #menu a:hover {
+        font-size: 1.1rem;
+      }
+    
+      .fa {
+        color: #7f5849;
+        padding: 25px 25px;
+        text-decoration: none;
+        font-size: 40px;
+      }
+    
+      #topnav .icon:hover {
+        background-color: #f5efeb;
+      }
+    
+    nav a.icon {
+        position: absolute;
+        float: right;
+        display: block;
+        right: 0px;
+        top: 10px;
+    }
+   
+/* Mit keramik */
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
 }
+
+.udvalg {
+    display: grid;
+    grid-template-columns: 35% 65% ;
+    grid-template-rows: auto 167,155px 167,155px 167,155px;
+    column-gap: 5%;
+    row-gap: 2%;
+}
+
+.no1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 90%;
+} 
+
+.no2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+} 
+
+.no3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 85%;
+} 
+
+.no4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+    background-color: #e9d9c3;
+    text-align: center;
+} 
+
+.udvalg-o {
+    color: #ef7b32;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.udvalg-t {
+    font-size: 0.9rem;
+    margin: 0 10px 10px 10px;
+}
+
+.no5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 100%;
+} 
+
+.no6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 85%;
+} 
+
+/* Farvepalette */
+
+.farvepalette {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 16,7% 16,7% 16,7% 16,7% 16,7% 16,7% ;
+    column-gap: 1%;
+    row-gap: 2%;
+    margin-top: 60px;
+}
+
+.bla1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100%;
+    opacity: 70%;
+}
+
+.bla1:hover {
+    opacity: 100%;
+}
+
+.bla2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 90%;
+    opacity: 70%;
+}
+
+.bla2:hover {
+    opacity: 100%;
+}
+
+.bla3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 50%;
+    opacity: 70%;
+}
+
+.bla3:hover {
+    opacity: 100%;
+}
+
+.gron1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 80%;
+    opacity: 70%;
+}
+
+.gron1:hover {
+    opacity: 100%;
+}
+
+.gron2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 60%;
+    opacity: 70%;
+}
+
+.gron2:hover {
+    opacity: 100%;
+}
+
+.gron3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    opacity: 70%;
+}
+
+.gron3:hover {
+    opacity: 100%;
+}
+
+.gron4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 50%;
+    opacity: 70%;
+}
+
+.gron4:hover {
+    opacity: 100%;
+}
+
+.farvetekst {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+}
+
+.farvepalette-o {
+    font-size: 2.2rem;
+}
+
+.farvepalette-t {
+    font-size: 1.2rem;
+    margin: 0 20% 0 20%;
+}
+
+.gron5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 50%;
+    opacity: 70%;
+}
+
+.gron5:hover {
+    opacity: 100%;
+}
+
+.gron6 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    width: 50%;
+    opacity: 70%;
+}
+
+.gron6:hover {
+    opacity: 100%;
+}
+
+.rod1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    width: 50%;
+    opacity: 70%;
+}
+
+.rod1:hover {
+    opacity: 100%;
+}
+
+.rod2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 50%;
+    opacity: 70%;
+}
+
+.rod2:hover {
+    opacity: 100%;
+}
+
+.rod3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    width: 50%;
+    opacity: 70%;
+}
+
+.rod3:hover {
+    opacity: 100%;
+}
+
+.rod4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 50%;
+    opacity: 70%;
+}
+
+.rod4:hover {
+    opacity: 100%;
+}
+
+     /* Footer */
+
+  footer {
+    background-color: #e9d9c3;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .menu-footer h3 {
+    font-size: 1.5rem;
+  }
+
+  .menu-footer a {
+    color: #7f5849;
+    text-decoration: none;
+    font-family: "kozuka-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  footer ul {
+    text-align: center;
+  }
+
+  footer li {
+    list-style-type: none;
+    margin: 10px 50px 10px 10px;
+  }
+
+  .some h3 {
+    font-size: 1.5rem;
+  }
+
+  .some img {
+    width: 10%;
+    display: block;
+    padding-left: 120px
+  }
+
+  .some a {
+    color: #7f5849;
+    text-decoration: none;
+    font-family: "kozuka-gothic-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .logo-footer {
+    width: 40%;
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+
+  footer p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
