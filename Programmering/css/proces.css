@@ -1,135 +1,164 @@
 body {
-    font-family: "baskerville-urw", serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-        p {
-            font-family: "kozuka-gothic-pro", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
+ font-family: "baskerville-urw", serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+p {
+ font-family: "kozuka-gothic-pro", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+}
     
-    .mobile-container {
-        max-width: 480px;
-        color: #7f5849;
-        margin: 0;
-        background-color: #f9f3ef;
-    }
+.mobile-container {
+ max-width: 480px;
+ color: #7f5849;
+ margin: 0;
+ background-color: #f9f3ef;
+}
+
+/*Styling af Navigationen og burgermenuen*/
     
-    /*Styling af Navigationen og burgermenuen*/
+#topnav {
+ overflow: hidden;
+ position: relative;
+ z-index: 100000;
+ background-color: #f9f3ef;
+}
     
-    #topnav {
-        overflow: hidden;
-        position: relative;
-       
-        z-index: 100000;
-        background-color: #f9f3ef;
-      }
+nav img {
+ width: 100px;
+}
     
-    nav img {
-        width: 100px;
-    }
+#menu {
+ display: none;
+ z-index: 9999;
+ padding-inline-start: 0;
+}
     
-    #menu {
-        display: none;
-        z-index: 9999;
-        padding-inline-start: 0;
-      }
+nav li {
+ list-style-type: none;
+ z-index:9999;
+ text-align: center;
+}
     
-    nav li {
-        list-style-type: none;
-        z-index:9999;
-        text-align: center;
-      }
+#menu a {
+ color: #7f5849;
+ text-decoration: none;
+ font-size: 15px;
+}
     
-      #menu a {
-        color: #7f5849;
-        text-decoration: none;
-        font-size: 15px;
-      }
+#menu a:hover {
+ font-size: 1.1rem;
+}
     
-      #menu a:hover {
-        font-size: 1.1rem;
-      }
+.fa {
+ color: #7f5849;
+ padding: 25px 25px;
+ text-decoration: none;
+ font-size: 40px;
+}
     
-      .fa {
-        color: #7f5849;
-        padding: 25px 25px;
-        text-decoration: none;
-        font-size: 40px;
-      }
+#topnav .icon:hover {
+ background-color: #f5efeb;
+}
     
-      #topnav .icon:hover {
-        background-color: #f5efeb;
-      }
-    
-    nav a.icon {
-        position: absolute;
-        float: right;
-        display: block;
-        right: 0px;
-        top: 10px;
-    }
-   
+nav a.icon {
+ position: absolute;
+ float: right;
+ display: block;
+ right: 0px;
+ top: 10px;
+}
+/*-----------------------------------------------------------------------------*/
+
+/*Styling af Main-indhold*/
+
+/*Styling af overskrifter*/
+h1 {
+ text-align: center;
+ font-size: 2.2rem;  
+}
+
+.proces-o {
+  text-align: center;
+  font-size: 2 rem;
+  color: #ef7b32;
+  margin-top: -25px; 
+}
+
+/*Styling af proces-billeder*/
+.rejsen {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  align-items: center;
+  grid-template-rows: auto auto; /* Two rows with auto height */
+  gap: 10px; /* Gap between grid items */
+}
 
 
 
 
-     /* Footer */
 
-  footer {
-    background-color: #e9d9c3;
-    text-align: center;
-    padding-top: 20px;
-  }
 
-  .menu-footer h3 {
-    font-size: 1.5rem;
-  }
 
-  .menu-footer a {
-    color: #7f5849;
-    text-decoration: none;
-    font-family: "kozuka-gothic-pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+/*-----------------------------------------------------------------------------*/
 
-  footer ul {
-    text-align: center;
-  }
+/*Styling af footer */
 
-  footer li {
-    list-style-type: none;
-    margin: 10px 50px 10px 10px;
-  }
+ footer {
+ background-color: #e9d9c3;
+ text-align: center;
+ padding-top: 20px;
+}
 
-  .some h3 {
-    font-size: 1.5rem;
-  }
+.menu-footer h3 {
+ font-size: 1.5rem;
+}
 
-  .some img {
-    width: 10%;
-    display: block;
-    padding-left: 120px
-  }
+.menu-footer a {
+ color: #7f5849;
+ text-decoration: none;
+ font-family: "kozuka-gothic-pro", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+}
 
-  .some a {
-    color: #7f5849;
-    text-decoration: none;
-    font-family: "kozuka-gothic-pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+ footer ul {
+ text-align: center;
+}
 
-  .logo-footer {
-    width: 40%;
-    margin-right: 40px;
-    margin-top: 40px;
-  }
+ footer li {
+ list-style-type: none;
+ margin: 10px 50px 10px 10px;
+}
 
-  footer p {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
+.some h3 {
+ font-size: 1.5rem;
+}
+
+.some img {
+ width: 10%;
+ display: block;
+ padding-left: 120px
+}
+
+.some a {
+ color: #7f5849;
+ text-decoration: none;
+ font-family: "kozuka-gothic-pro", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+}
+
+.logo-footer {
+ width: 40%;
+ margin-right: 40px;
+ margin-top: 40px;
+}
+
+footer p {
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
   
