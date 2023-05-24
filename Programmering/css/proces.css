@@ -87,14 +87,46 @@ h1 {
   margin-top: -25px; 
 }
 
-/*Styling af proces-billeder*/
+/*Styling af proces-rejsen med grid + baggrundsbillede*/
 .rejsen {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
   align-items: center;
   grid-template-rows: auto auto; /* Two rows with auto height */
   gap: 10px; /* Gap between grid items */
+  background-image: url("/Programmering/img/processtreg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-left: 2%;
+  padding-right: 5%;
+  
 }
+
+/*Styling af de enkelte tekst og billede elementer i proces-rejsen*/
+
+/*centrering af tekst*/
+.proces-tekst-venstre {
+text-align:center;
+}
+
+.proces-tekst-højre {
+text-align: center;
+padding-right: 50px;
+}
+
+/*centrering af billede filer*/
+.div-img {
+  text-align: center;
+}
+
+.img-tekst {
+text-align: center;
+}
+
+
+
+
 
 
 
