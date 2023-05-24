@@ -23,15 +23,13 @@ function myFunction() {
   })(document);
 
 
-  //Test
-
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    var video = document.querySelector('.proces-img'); // Select video element by class
-  
-    // Set video properties
-    video.autoplay = true;
-    video.loop = true;
-    video.muted = true;
+ /*Test
+var jsCode =
+document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementsByClassName('proces-video');
+    video.play();
   });
+  */
+
+
   

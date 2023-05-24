@@ -17,6 +17,9 @@ p {
  background-color: #f9f3ef;
 }
 
+
+
+/*-----------------------------------------------------------------------------*/
 /*Styling af Navigationen og burgermenuen*/
     
 #topnav {
@@ -71,11 +74,11 @@ nav a.icon {
  top: 10px;
 }
 
+
+
 /*-----------------------------------------------------------------------------*/
+/*Styling af fra-ler-til-kop-proces*/
 
-/*Styling af Main-indhold*/
-
-/*Styling af overskrifter*/
 h1 {
  text-align: center;
  font-size: 2.2rem;  
@@ -88,13 +91,13 @@ h1 {
   margin-top: -25px; 
 }
 
-/*Styling af proces-rejsen med grid + baggrundsbillede*/
+/*Styling med grid + baggrundsbillede*/
 .rejsen {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
   align-items: center;
   grid-template-rows: auto auto; /* Two rows with auto height */
-  gap: 10px; /* Gap between grid items */
+  gap: 15px; /* Gap between grid items */
   background-image: url("/Programmering/img/processtreg.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -104,8 +107,19 @@ h1 {
 }
 
 /*Styling og centrering af de enkelte tekst og billede elementer i proces-rejsen*/
+.proces-img {
+ height: 120px;
+ width: 120px;
+}
 
-/*centrering af tekst*/
+.proces-video {
+  width: 100%;  
+}
+
+.proces-video2 {
+width: 440px;  
+}
+
 .proces-tekst-venstre {
 text-align:center;
 }
@@ -123,7 +137,7 @@ padding-right: 50px;
 text-align: center;
 }
 
-/*Styling af nederste kop + tekst */
+/*Styling af nederste kop + tekst*/
 
 .proces-tekst-midten {
   text-align: center; 
@@ -133,8 +147,7 @@ text-align: center;
 
 
 
-
-
+/*-----------------------------------------------------------------------------*/ 
 /*Styling af billede gallari*/
 
 h2 {
@@ -148,6 +161,7 @@ h2 {
   grid-template-rows: auto 167,155px 167,155px 167,155px;
   column-gap: 5%;
   row-gap: 2%;
+  margin-bottom: 50px;
 }
 
 .no1 {
@@ -214,11 +228,7 @@ h2 {
 
 
 
-
-
-
 /*-----------------------------------------------------------------------------*/
-
 /*Styling af footer */
 
  footer {
