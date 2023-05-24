@@ -114,6 +114,7 @@ nav a.icon {
     text-align: center;
     margin-top: 40px;
     margin-left: 100px;
+    box-shadow: 0px 5px 15px -10px #7f5849;
 
 }
 
@@ -147,6 +148,10 @@ margin-top: 20px;
 margin-bottom: 30px;
 }
 
+.om-maria a:hover {
+  font-size: 1.8rem;
+}
+
 /* Proces */
 
 .proces {
@@ -178,11 +183,17 @@ margin-bottom: 30px;
     border-radius: 10px;
 }
 
-/* styling af Maria i Nr.4 */
+.proces a:hover {
+  font-size: 1.8rem;
+}
+
+
+/* styling billede af Maria i Nr.4 */
 
 .Nr-4 {
   width: 100%;
   margin-top: 45px;
+  box-shadow: 0px 5px 15px -10px #7f5849;
 }
 
 
@@ -239,6 +250,9 @@ margin-bottom: 30px;
     border-radius: 10px;
   }
 
+  .kontakt a:hover {
+    font-size: 1.8rem;
+  }
 
   /* Footer */
 
@@ -258,6 +272,10 @@ margin-bottom: 30px;
     font-family: "kozuka-gothic-pro", sans-serif;
     font-weight: 300;
     font-style: normal;
+  }
+
+  .menu-footer a:hover {
+    font-size: 1.1rem;
   }
 
   footer ul {
@@ -285,6 +303,10 @@ margin-bottom: 30px;
     font-family: "kozuka-gothic-pro", sans-serif;
     font-weight: 300;
     font-style: normal;
+  }
+
+  .some a:hover {
+    font-size: 1.1rem;
   }
 
   .logo-footer {
