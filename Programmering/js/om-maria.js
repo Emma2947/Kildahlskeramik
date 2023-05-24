@@ -31,3 +31,15 @@ video.play();
 video.addEventListener("ended", function() {
   video.play();
 });
+
+//Keramik rejse
+var knap = document.getElementById('knap');
+var tekst = document.getElementById('tekst');
+
+knap.addEventListener('click', function() {
+  if (tekst.style.display === 'none') {
+    tekst.style.display = 'block';
+  } else {
+    tekst.style.display = 'none';
+  }
+});
