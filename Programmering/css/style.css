@@ -23,15 +23,27 @@ font-style: normal;
     z-index: 1;
   }
 
+  .logo {
+    position: relative;
+    z-index: 1;
+  }
+
+  .mit-keramik {
+    position: relative;
+  }
+
+  .mit-keramik a:hover {
+    font-size: 1.8rem;
+  }
 
 /*Styling af Navigationen og burgermenuen*/
 
 #topnav {
     overflow: hidden;
     position: relative;
-   
-    z-index: 100000;
     background-color: #f9f3ef;
+    z-index: 100000;
+
   }
 
 nav img {
@@ -77,6 +89,11 @@ nav a.icon {
     display: block;
     right: 0px;
     top: 10px;
+}
+
+.icon {
+  position: relative;
+  z-index: 1;
 }
 
 /* Mit Keramik */
