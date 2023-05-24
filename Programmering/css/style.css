@@ -42,6 +42,8 @@ font-style: normal;
     overflow: hidden;
     position: relative;
     background-color: #f9f3ef;
+    z-index: 100000;
+
   }
 
 nav img {
