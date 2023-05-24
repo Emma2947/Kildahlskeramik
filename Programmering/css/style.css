@@ -16,17 +16,13 @@ font-style: normal;
     background-color: #f9f3ef;
 }
 
-/*Styling af billede bagved menupunkter */
-#menu {
-  background-image: url(img/tre-gule-kopper-med-unikke-hanke.jpg);
-  background-size: cover;
-  background-position: center;
-  }
-  
+/*Styling af menupunkter som kommer foran billede */
+
   #menu li {
     position: relative;
     z-index: 1;
   }
+
 
 /*Styling af Navigationen og burgermenuen*/
 
@@ -92,6 +88,7 @@ nav a.icon {
     box-shadow: 0px 5px 15px -10px #7f5849;
 }
 
+
  .mit-keramik a{
     text-decoration: none;
     color: #ef7b32;
@@ -116,6 +113,8 @@ nav a.icon {
     width: 60%;
     text-align: center;
     margin-top: 40px;
+    margin-left: 100px;
+
 }
 
 .om-maria-overskrift {
@@ -136,6 +135,16 @@ nav a.icon {
     padding: 2px 10px;
     font-size: 1.7rem;
     border-radius: 10px;
+}
+
+/* forsøg på at få knap placeret i midten */
+.om-maria a {
+justify-content: center;
+display: flex;
+margin-left: 95px;
+margin-right: 95px;
+margin-top: 20px;
+margin-bottom: 30px;
 }
 
 /* Proces */
@@ -169,12 +178,21 @@ nav a.icon {
     border-radius: 10px;
 }
 
+/* styling af Maria i Nr.4 */
+
+.Nr-4 {
+  width: 100%;
+  margin-top: 45px;
+}
+
+
+
 /* Parallax */
 
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: 400px; /* Angi ønsket høyde for parallax-container */
+    height: 400px; /* Angi ønsket højde for parallax-container */
   }
   
   .parallax-image {
