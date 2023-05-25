@@ -24,22 +24,23 @@ function myFunction() {
 
 
 
-//Confirmation besked
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var form = document.getElementById('contact-form');
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Forhindrer formularen i at blive sendt som normalt
-
-      // Udfør handlingen for at sende formularen, f.eks. med AJAX eller formularbehandlingsskript
-
-      // Vis bekræftelsesbeskeden
-      var confirmationMessage = document.getElementById('confirmation-message');
-      confirmationMessage.style.display = 'block';
-    });
-  });
+//hvad der sker efter send knap
+  function submitForm(event) {
+    event.preventDefault(); // Forhindrer formular i at blive indsendt og siden genindlæses
+    
+    // Udfør eventuelle yderligere handlinger eller valideringer her
+    
+    // Send brugeren videre til en ny side
+    window.location.href = "conformation.html";
+  }
 
 
-
-
-
+  function submitForm(event) {
+    event.preventDefault(); // Forhindrer formular i at blive indsendt og siden genindlæses
+    
+    // Udfør eventuelle yderligere handlinger eller valideringer her
+    
+    // Vis linket til den nye side
+    var linkElement = document.getElementById('link');
+    linkElement.classList.remove('hidden');
+  }
