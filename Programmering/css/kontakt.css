@@ -155,8 +155,31 @@ body {
       text-align: center;
       padding: 0px 20px 40px 20px;
   }
-
-
+      .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .popup .popuptext {
+        visibility: hidden;
+        width: 200px; 
+        background-color: #e9d9c3;
+        color: #7f5849;
+        text-align: center;
+        border-radius: 4px;
+        padding: 8px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -100px;
+      }
+      
+      .popup:hover .popuptext {
+        visibility: visible;
+      }
+  
   .nr4 {
     padding: 30px 20px 30px 20px;
     text-align: center;
