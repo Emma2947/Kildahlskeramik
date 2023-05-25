@@ -19,7 +19,6 @@ p {
 
 
 
-/*-----------------------------------------------------------------------------*/
 /*Styling af Navigationen og burgermenuen*/
     
 #topnav {
@@ -76,7 +75,6 @@ nav a.icon {
 
 
 
-/*-----------------------------------------------------------------------------*/
 /*Styling af fra-ler-til-kop-proces*/
 
 h1 {
@@ -91,22 +89,22 @@ h1 {
   margin-top: -25px; 
 }
 
-/*Styling med grid + baggrundsbillede*/
+/*Styling af grid + baggrundsbillede*/
 .rejsen {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  grid-template-rows: auto auto; /* Two rows with auto height */
-  gap: 15px; /* Gap between grid items */
+  grid-template-rows: auto auto;
+  gap: 15px;
   background-image: url("/Programmering/img/processtreg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding-left: 2%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-/*Styling og centrering af de enkelte tekst og billede elementer i proces-rejsen*/
+/*Styling af tekst + illustrationer*/
 .proces-img {
  height: 120px;
  width: 120px;
@@ -116,15 +114,15 @@ h1 {
   width: 100%;  
 }
 
-.proces-video2 {
-width: 440px;  
+#proces-video2 {
+width: 350px;  
 }
 
 .proces-tekst-venstre {
 text-align:center;
 }
 
-.proces-tekst-højre {
+.proces-tekst-hojre {
 text-align: center;
 padding-right: 50px;
 }
@@ -147,9 +145,7 @@ text-align: center;
 
 
 
-/*-----------------------------------------------------------------------------*/ 
 /*Styling af billede gallari*/
-
 h2 {
   text-align: center;
   font-size: 2.2rem;
@@ -229,7 +225,6 @@ h2 {
 
 
 
-/*-----------------------------------------------------------------------------*/
 /*Styling af footer */
 
  footer {
@@ -289,6 +284,7 @@ footer p {
 }
 
 /*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 1*/
 
 @media screen and (max-width: 768px) and (min-width: 481px)
 
@@ -296,7 +292,108 @@ footer p {
 
  .mobile-container {
  max-width: 768px;
-}  
+ background-color: #f9f3ef;
+}
 
 }
-  
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 2*/
+
+@media screen and (max-width: 1025px) and (min-width: 769px)
+
+{
+
+ .mobile-container {
+ max-width: 1025px;
+ background-color:gold;
+ }   
+
+ /*Styling af Illustrationer, Motion Graphics + sektionen*/
+
+ .proces-video {
+ width: 270px;  
+ }
+
+ #proces-video2 {
+ width: 400px;
+ }
+
+ .proces-img {
+ height: 140px;
+ width: 140px;
+ }
+
+
+ .proces-tekst-venstre {
+  margin-left: 15%;
+  margin-right: 15%;
+ }
+
+ .proces-tekst-hojre {
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+ .proces-tekst-midten {
+ margin-left: 30%;
+ margin-right: 30%;
+
+ }
+
+ }
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 3*/
+
+@media screen and (max-width: 1200px) and (min-width: 1026px)
+
+{
+ .mobile-container {
+ max-width: 1200px;
+ background-color:chartreuse;
+ }     
+ 
+ .tekst-img {
+
+
+
+ }
+
+ .img-tekst {
+
+
+
+ }
+
+ .div-img {
+
+
+
+ }
+
+ .div-tekst {
+
+ }
+
+
+}
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 4*/
+
+@media screen and (max-width: 1600px) and (min-width: 1201px) {
+ .mobile-container {
+ max-width: 1600px;
+ background-color: blue;
+  }
+}

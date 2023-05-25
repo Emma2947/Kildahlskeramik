@@ -12,27 +12,21 @@
 </head>
 <body>
 
+
 <div class="mobile-container">
 
 
-<!--
-- SKAL SLETTES INDEN AFLEVERING:
-- KODEN NEDER I JS VIRKEDE DA DET FØRST BLEV IMPLEMENTERET. OG EFTER KORT TID VIRKEDE 
-DET IKKE LÆNGERE. MÅSKE PGA BROSWER PROBLEMER? HAR PRØVET MED EN IFRAME MEN UDEN HELD.
-DERFOR ER DE SAT TIL AT 'AUTOPLAY' HER I HTML. OBS PÅ HVIS DET FORSØGES AT FIXE PROBLEMET
-I JAVASCRIPT AT DEN NEDERSTE VIDEO HAR FÅET EN ANDERLEDES CLASS END DE TO ANDRE VIDEOER.
-(FOR AT KUNNE STYLE DEN) - OBS PÅ DETTE HVIS DET FORSØGES AT FÅ VIDEOERNE TIL AT AUTOPLAY
-MED JAVASCRIPT 
 
-NOTER OVER TING DER MANGLER 
-- TILPAS FOOTER 
-- FÆRDIGGØR KNAP I GALLARI
-- (TILPAS GALLARI?) 
-- LAV SIDEN RESPONSIVE
-- LAV NOTER TIL ALT, SÅ DET GIVER MENING
-- LAV REFERENCER?
+    <!--
+ *NOTER: - SLETTES INDEN AFLEVERING!*
+ - OVERSKRIFT STØRRELSER?
+ - LAV SIDEN RESPONSIV 
+ - LAVE NOTER TIL ALT SÅ DET GIVER MENING
+ - LAVE REFERENCER? 
+ - ER DET OK AT NOGLE TAGS BÅDE HAR CLASS OG ID, DA JEG HAR BRUGT DET TIL AT LØSE NOGLE SITUATIONER
+ - (TJEK CLASSES FOR ÆØÅ)  
+ -->    
 
--->
 
  <!--Menu bar-->
  <nav class="topnav">
@@ -52,8 +46,8 @@ NOTER OVER TING DER MANGLER
      </div>
  </nav>
 
-    
- <!--PROCES FRA LER TIL KOP-->
+
+ <!--Proces fra ler til kop-->
  <main>
      <section class="proces">
          <h1>Proces</h1>
@@ -68,30 +62,36 @@ NOTER OVER TING DER MANGLER
              <div class="div-img">
                  <img src="/Programmering/img/lerklump.svg" height="120" width="120" alt="Lerklump" class="proces-img">
              </div>
+           
 
-            <div class="img-tekst">
+            
+             <div class="img-tekst">
                  <img src="/Programmering/img/formning-af-ler-paa-drejeskive.svg" height="120" width="120" alt="Ler-drejes" class="proces-img">
             </div>
             <div class="div-tekst">
-                 <p class="proces-tekst-højre">
+                 <p class="proces-tekst-hojre">
                  Så sætter jeg mig ved drejeskiven, og drejer leret, til den form jeg ønsker
                  </p>
             </div>
+         
 
+           
             <div class="tekst-img">
                  <p class="proces-tekst-venstre">
                  Når leret er tørret og blevet læderhårdt, så skal koppen afdrejes
                  </p>
             </div>
             <div class="div-img">
-                 <video src="/Programmering/video/kopmedvarktoj.mp4" alt="Ler-formes" class="proces-video" autoplay loop muted >
+                 <video src="/Programmering/video/kopmedvarktoj.mp4" alt="Ler-formes" class="proces-video" loop muted >
             </div>
+         
 
+         
             <div class="img-tekst">
                  <img src="/Programmering/img/kop-med-hank.svg" alt="Ler-faar-hank" class="proces-img">
             </div>
              <div class="div-tekst">
-                 <p class="proces-tekst-højre">
+                 <p class="proces-tekst-hojre">
                  Jeg laver hanken som jeg gerne vil have den, og så sætter jeg den på koppen
                  </p>
             </div>
@@ -106,10 +106,10 @@ NOTER OVER TING DER MANGLER
             </div>
 
             <div class="img-tekst">
-                 <video src="/Programmering/video/glasering.mp4" alt="Ler-glaseres" class="proces-video" autoplay loop muted>
+                 <video src="/Programmering/video/glasering.mp4" alt="Ler-glaseres" class="proces-video" loop muted>
              </div>
              <div class="div-tekst">
-                <p class="proces-tekst-højre">
+                <p class="proces-tekst-hojre">
                     Efter første brænding bliver koppen glaseret, og får den skønneste farve
                 </p>
             </div>
@@ -126,7 +126,7 @@ NOTER OVER TING DER MANGLER
 
          <!--NEDERSTE KOP I EN SEKTION FOR SIG SELV - OBS på at den har en anden class end de overstående videoer-->
          <div class="img-tekst">
-             <video src="/Programmering/video/kop-med-kaffe.mp4" alt="Fardig-kop" class="proces-video2" autoplay loop muted>
+             <video src="/Programmering/video/kop-med-kaffe.mp4" alt="Fardig-kop" class="proces-video" id="proces-video2" loop muted>
          </div>
          <div class="div-tekst2">
             <p class="proces-tekst-midten">
@@ -136,8 +136,7 @@ NOTER OVER TING DER MANGLER
      </section>
 
 
-
-     <!--VÆRKSTED GALLARI-->
+     <!--Varksted gallari-->
      <h2 class="mv-o">Mit værksted</h2>
      <section class="mit-varksted">
          <img src="/Programmering/img/redskaber.jpg" alt="Redskaber til afdrejning" class="no1">
@@ -157,6 +156,8 @@ NOTER OVER TING DER MANGLER
      </section>
  </main>
 
+
+ <!--Footer-->
  <footer>
      <div class="menu-footer">
          <h3>Menu</h3>
@@ -170,9 +171,9 @@ NOTER OVER TING DER MANGLER
     
      <div class="some">
          <h3>Sociale Medier</h3>
-         <img src="/programmering/img/instagram.png" alt="Kildahls Keramik på Instagram">
+         <img src="/programmering/img/instagram.png" alt="Kildahls Keramik paa Instagram">
          <a href="https://www.instagram.com/kildahls_keramik/" target="_blank">@kildahlskeramik</a>
-         <img src="/programmering/img/facebook.png" alt="Kildahls Keramik på Facebook">
+         <img src="/programmering/img/facebook.png" alt="Kildahls Keramik paa Facebook">
          <a href="https://www.facebook.com/kildahlskeramik" target="_blank">Kildahls Keramik</a>
      </div>
 
