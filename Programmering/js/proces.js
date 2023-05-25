@@ -23,13 +23,12 @@ function myFunction() {
   })(document);
 
 
- /*Test
-var jsCode =
-document.addEventListener('DOMContentLoaded', function() {
-    var video = document.getElementsByClassName('proces-video');
-    video.play();
-  });
-  */
-
+ //Autoplay af videoer
+ document.addEventListener('DOMContentLoaded', function() {
+  var videos = document.getElementsByClassName('proces-video');
+  for (var i = 0; i < videos.length; i++) {
+    videos[i].play();
+  }
+});
 
   

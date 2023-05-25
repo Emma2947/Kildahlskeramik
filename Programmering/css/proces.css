@@ -19,7 +19,6 @@ p {
 
 
 
-/*-----------------------------------------------------------------------------*/
 /*Styling af Navigationen og burgermenuen*/
     
 #topnav {
@@ -76,7 +75,6 @@ nav a.icon {
 
 
 
-/*-----------------------------------------------------------------------------*/
 /*Styling af fra-ler-til-kop-proces*/
 
 h1 {
@@ -91,22 +89,22 @@ h1 {
   margin-top: -25px; 
 }
 
-/*Styling med grid + baggrundsbillede*/
+/*Styling af grid + baggrundsbillede*/
 .rejsen {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  grid-template-rows: auto auto; /* Two rows with auto height */
-  gap: 15px; /* Gap between grid items */
+  grid-template-rows: auto auto;
+  gap: 15px;
   background-image: url("/Programmering/img/processtreg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding-left: 2%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-/*Styling og centrering af de enkelte tekst og billede elementer i proces-rejsen*/
+/*Styling af tekst + illustrationer*/
 .proces-img {
  height: 120px;
  width: 120px;
@@ -116,15 +114,15 @@ h1 {
   width: 100%;  
 }
 
-.proces-video2 {
-width: 440px;  
+#proces-video2 {
+width: 350px;  
 }
 
 .proces-tekst-venstre {
 text-align:center;
 }
 
-.proces-tekst-højre {
+.proces-tekst-hojre {
 text-align: center;
 padding-right: 50px;
 }
@@ -147,7 +145,6 @@ text-align: center;
 
 
 
-/*-----------------------------------------------------------------------------*/ 
 /*Styling af billede gallari*/
 
 h2 {
@@ -157,11 +154,12 @@ h2 {
 
 .mit-varksted {
   display: grid;
-  grid-template-columns: 35% 65% ;
+  grid-template-columns: 33% 66% ;
   grid-template-rows: auto 167,155px 167,155px 167,155px;
-  column-gap: 5%;
+  column-gap: 4%;
   row-gap: 2%;
-  margin-bottom: 50px;
+  margin-left: 6%;
+  margin-bottom: 10%;
 }
 
 .no1 {
@@ -201,15 +199,25 @@ h2 {
 
 .udvalg-o {
   color: #ef7b32;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+  margin-top: 7%;
   margin-bottom: 10px;
+}
+
+.udvalg-t {
+  margin: 0 5% 7% 5%; 
+  font-size: 1rem;
 }
 
 .mv-tekst {
   font-size: 0.9rem;
-  margin: 0 10px 10px 10px;
-  margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
 }
+
+
 
 .no5 {
   grid-column-start: 1;
@@ -229,7 +237,6 @@ h2 {
 
 
 
-/*-----------------------------------------------------------------------------*/
 /*Styling af footer */
 
  footer {
@@ -289,6 +296,7 @@ footer p {
 }
 
 /*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 1*/
 
 @media screen and (max-width: 768px) and (min-width: 481px)
 
@@ -296,7 +304,148 @@ footer p {
 
  .mobile-container {
  max-width: 768px;
-}  
+ background-color: #f9f3ef;
+}
+
+
 
 }
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 2*/
+
+@media screen and (max-width: 1025px) and (min-width: 769px)
+
+{
+
+ .mobile-container {
+ max-width: 1025px;
+ background-color:gold;
+ }   
+
+ h1 {
+  font-size: 3rem;
+ }
+
+ h2 {
+  font-size: 3rem;
+  }
   
+ .proces-o {
+  font-size: 2.6rem;
+ } 
+
+ /*Styling af Illustrationer, Motion Graphics + sektionen*/
+
+ .proces-video {
+ width: 270px;  
+ }
+
+ #proces-video2 {
+ width: 400px;
+ }
+
+ .proces-img {
+ height: 140px;
+ width: 140px;
+ }
+
+ .proces-tekst-venstre {
+  margin-left: 15%;
+  margin-right: 15%;
+ }
+
+ .proces-tekst-hojre {
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+ .proces-tekst-midten {
+ margin-left: 30%;
+ margin-right: 30%;
+
+ }
+
+ }
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 3*/
+
+@media screen and (max-width: 1200px) and (min-width: 1026px)
+
+{
+ .mobile-container {
+ max-width: 1200px;
+ background-color:chartreuse;
+ }     
+ 
+ h1 {
+  font-size: 4rem;
+ }
+
+ h2 {
+  font-size: 4rem;
+  }
+  
+ .proces-o {
+ font-size: 3rem;
+ }
+
+ .udvalg-o {
+  font-size: 2rem;
+}
+
+.mv-tekst {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  font-size: 1.2rem;
+ }
+
+
+
+}
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 4*/
+
+@media screen and (max-width: 1600px) and (min-width: 1201px) {
+ .mobile-container {
+ max-width: 1600px;
+ background-color: blue;
+  }
+
+
+ h1 {
+ font-size: 5rem;
+}
+ 
+ .proces-o {
+ font-size: 4rem;
+ }
+
+ h2 {
+ font-size: 5rem;
+ }
+
+.udvalg-o {
+    font-size: 4rem;
+}
+
+.mv-tekst {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+ font-size: 1.5rem;
+}
+
+}

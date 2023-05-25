@@ -145,6 +145,14 @@ body {
       border: 1px solid #ccc;
       text-align: center;
     }
+   .link a{
+    display: none;
+   }
+   hidden a{
+    display: none;
+  }
+
+
  /*Styling af markedskalender*/
      .kalender {
       height: 200px;

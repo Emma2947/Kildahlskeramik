@@ -45,7 +45,11 @@
                     Jeg er altid behjælpelig og svarer så hurtigt jeg kan.
                 </p>
                     <section class="formular-knapper">
+                        <!---
                     <form action="send_form.php" method="POST">
+                        -->
+                        <form id="contactForm" onsubmit="submitForm(event)">
+                            <!-- Formularfelter -->
                         <label class="label"for="name">Navn:</label>
                         <input class="input" type="text" id="name" name="name" required>
                       
@@ -54,20 +58,56 @@
                       
                         <label for="message">Besked:</label>
                         <textarea class="input" id="message" name="message" required></textarea>
-                      
-                        <input class="input" type="submit" value="Send">
+                        <button  class="input" type="submit">Send</button>
+                        
                       </form>
+                    
+            <a href="comfirmation.html" id="link" class="hidden">Gå til ny side </a>
+  
+                      <script src="kontakt.js"></script>
                     </section>
-                      
+                    
+
+                    <!---
+                    <section>
+                    <form id="contactForm" onsubmit="submitForm(event)">
+                     
+                        <label class="label"for="name">Navn:</label>
+                        <input class="input"type="text" name="name" placeholder="Navn" required>
+
+                        <label class="label" for="email">Email:</label>
+                        <input class="input"type="email" name="email" placeholder="Email" required>
+
+                        <label for="message">Besked:</label>
+                        <textarea class="input" name="message" placeholder="Besked" required></textarea>
+
+                        <button class="input"type="submit">Send</button>
+                      </form>
+                      <script src="kontakt.js"></script>
+                    </section>
+
                       <div id="confirmation-message" style="display: none;">
                         tak for din besked, jeg kontakter dig hurtigst muligt. Jeg skal lige være færdig med at dreje Knus Maria
-                      </div>                      
+                      </div>    
+                    
+                    -->          
+                     
+
+
                       <img id="Illustrationer" src="img/bagggrund-illustration.svg" alt="baggrund illustration">
                 <!--(hvor skal beskeden sendes hen -> dette skal programmeres)
                 
                 VIGTIGT: der må ikke komme 404 fejl når man trykker send 
 
                 --> 
+                <!---
+                <div class="popup">
+                    <span class="popuptext">
+                        tak for din besked, jeg kontakter dig hurtigst muligt. 
+                        <br> Jeg skal lige være færdig med at dreje Knus Maria </span>
+                        <a class="knap" href="/Programmering/index.html">Tilbage til forsiden</a>
+                    </div>
+                    -->
             </section>
 
             <section class="markedskalender">
