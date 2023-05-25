@@ -88,7 +88,7 @@ body {
       margin: 0% 10%;
     }
     .kontakt {
-      background-image: url(/Programmering/img/baggrund-illustration.svg);
+      background-image: url(/Programmering/img/bagggrund-illustration.svg);
       background-size: cover;
   }
     /*styling af kontakt formular*/
@@ -120,6 +120,10 @@ body {
         border-radius: 4px;
         cursor: pointer;
       }
+      .input:hover{
+       color: #f9f3ef; 
+      }
+
       .label{
         color: #7f5849;
         padding: 12px 20px;
@@ -141,6 +145,14 @@ body {
       border: 1px solid #ccc;
       text-align: center;
     }
+   .link a{
+    display: none;
+   }
+   hidden a{
+    display: none;
+  }
+
+
  /*Styling af markedskalender*/
      .kalender {
       height: 200px;
@@ -151,60 +163,31 @@ body {
       text-align: center;
       padding: 0px 20px 40px 20px;
   }
+      .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .popup .popuptext {
+        visibility: hidden;
+        width: 200px; 
+        background-color: #e9d9c3;
+        color: #7f5849;
+        text-align: center;
+        border-radius: 4px;
+        padding: 8px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -100px;
+      }
+      
+      .popup:hover .popuptext {
+        visibility: visible;
+      }
   
-  /* Popup container---------------------------- */
-.popup-lordag {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup-lordag .popuptext-lordag{
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow --------------------------------------------------*/
-.popup-lordag .popuptext-lordag::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup-lordag .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
-
   .nr4 {
     padding: 30px 20px 30px 20px;
     text-align: center;
@@ -225,9 +208,9 @@ body {
     margin: 0% 10%;
   }
 
-  /*Styling af knap retur to Om Maria*/
+  /*Styling af knap retur lær kunsten..*/
   
-  .laer-kunsten a {
+  .knap {
     text-decoration: none;
     color: #ef7b32;
     background-color:#e9d9c3;
@@ -236,25 +219,11 @@ body {
     font-size: 1.7rem;
   }
 
-  .laer-kunsten a:hover{
-    color: #7f5849;
+  .knap:hover{
+    color: #f9f3ef;
+    font-size: 1.8rem
   }
-  /* slettes måske .nr4 a {
-    text-decoration: none;
-    color: #ef7b32;
-    background-color: #e9d9c3;
-    padding: 2px 10px;
-    font-size: 1.7rem;
-    border-radius: 10px;
-  }
-
-  .nr4 a:hover {
-    font-size: 1.8rem;
-  }*/
-
-
-
-
+  
      /* Footer */
 
   footer {
