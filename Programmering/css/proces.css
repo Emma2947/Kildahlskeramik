@@ -146,6 +146,7 @@ text-align: center;
 
 
 /*Styling af billede gallari*/
+
 h2 {
   text-align: center;
   font-size: 2.2rem;
@@ -153,11 +154,12 @@ h2 {
 
 .mit-varksted {
   display: grid;
-  grid-template-columns: 35% 65% ;
+  grid-template-columns: 33% 66% ;
   grid-template-rows: auto 167,155px 167,155px 167,155px;
-  column-gap: 5%;
+  column-gap: 4%;
   row-gap: 2%;
-  margin-bottom: 50px;
+  margin-left: 6%;
+  margin-bottom: 10%;
 }
 
 .no1 {
@@ -197,8 +199,15 @@ h2 {
 
 .udvalg-o {
   color: #ef7b32;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+  margin-top: 7%;
   margin-bottom: 10px;
+}
+
+.udvalg-t {
+  margin: 0 5% 7% 5%; 
+  font-size: 1rem;
 }
 
 .mv-tekst {
@@ -295,6 +304,8 @@ footer p {
  background-color: #f9f3ef;
 }
 
+
+
 }
 
 
@@ -311,6 +322,14 @@ footer p {
  background-color:gold;
  }   
 
+ h1 {
+  font-size: 3rem;
+ }
+  
+ .proces-o {
+  font-size: 2.6rem;
+ } 
+
  /*Styling af Illustrationer, Motion Graphics + sektionen*/
 
  .proces-video {
@@ -326,7 +345,6 @@ footer p {
  width: 140px;
  }
 
-
  .proces-tekst-venstre {
   margin-left: 15%;
   margin-right: 15%;
@@ -341,6 +359,15 @@ footer p {
  margin-left: 30%;
  margin-right: 30%;
 
+ }
+
+ /*Styling af gallari*/
+
+ .mv-tekst {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  font-size: 1.2rem;
  }
 
  }
@@ -361,27 +388,25 @@ footer p {
  background-color:chartreuse;
  }     
  
- .tekst-img {
-
-
-
+ h1 {
+  font-size: 4rem;
+ }
+  
+ .proces-o {
+ font-size: 3rem;
  }
 
- .img-tekst {
+ .udvalg-o {
+  font-size: 2rem;
+}
 
-
-
+.mv-tekst {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  font-size: 1.2rem;
  }
 
- .div-img {
-
-
-
- }
-
- .div-tekst {
-
- }
 
 
 }
@@ -396,4 +421,25 @@ footer p {
  max-width: 1600px;
  background-color: blue;
   }
+
+
+ h1 {
+ font-size: 5rem;
+}
+ 
+ .proces-o {
+ font-size: 4rem;
+ }
+
+.udvalg-o {
+    font-size: 4rem;
+}
+
+.mv-tekst {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+ font-size: 1.5rem;
+}
+
 }
