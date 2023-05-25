@@ -9,6 +9,7 @@ body {
             font-style: normal;
         }
     
+      
     .mobile-container {
         max-width: 480px;
         color: #7f5849;
@@ -71,6 +72,86 @@ body {
         top: 10px;
     }
 /*styling af indhold*/
+  /*----------------------BREAKPOINTS-----------*/
+          /*breakpoint 1 */
+          @media screen and (max-width: 768px) and (min-width:481px)
+          {
+            .mobile-container{
+              max-width: 768px;
+            }
+          }
+
+
+
+  /*--------------------------------------------*/
+            /*breakpoint 2 */
+            @media screen and (max-width: 1025px) and (min-width:769px)
+            {
+              .mobile-container {
+                max-width: 1025px;
+                background-color:gold;
+                }   
+               
+                .h1 {
+                 font-size: 3rem;
+                }
+
+                .h2 {
+                 font-size: 3rem;
+                 }
+                 
+                .p {
+                 font-size: 2.6rem;
+                } 
+                .h4 {
+                  font-size: 2.6rem;
+                 } 
+/*Styling af Illustrationer, Motion Graphics + sektionen*/
+
+.formular-knapper {
+  width: 270px;  
+ }
+
+ .formular-knapper {
+  width: 400px;  
+ }
+
+ .formular-knapper{
+  height: 180px;
+  width: 180px;
+  }
+
+  .formular-knapper {
+   margin-left: 15%;
+   margin-right: 15%;
+  }
+ 
+  .formular-knapper {
+   margin-left: 5%;
+   margin-right: 5%;
+  }
+ 
+  .formular-knapper {
+  margin-left: 30%;
+  margin-right: 30%;
+ }
+ 
+  }
+  
+        /*breakpoint 3 */
+        @media screen and (max-width: 1200px) and (min-width:1026px)
+        {
+          .mobile-container{
+            max-width: 1200px;
+          }
+        }
+          /*breakpoint 4 */
+        @media screen and (max-width: 1600px) and (min-width:1201px){
+          .mobile-container{
+            max-width: 1600px;
+          }
+        }
+/*-----------------------------------------*/
 
     .kontakt
       { 
