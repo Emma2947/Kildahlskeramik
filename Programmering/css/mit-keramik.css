@@ -1,4 +1,5 @@
 body {
+    font-size: 12px;
     font-family: "baskerville-urw", serif;
     font-weight: 400;
     font-style: normal;
@@ -11,6 +12,7 @@ body {
     
     .mobile-container {
         max-width: 480px;
+        min-width: 462px;
         color: #7f5849;
         margin: 0;
         background-color: #f9f3ef;
@@ -82,10 +84,11 @@ h1 {
 
 .udvalg {
     display: grid;
-    grid-template-columns: 35% 65% ;
+    grid-template-columns: 33% 66% ;
     grid-template-rows: auto 167,155px 167,155px 167,155px;
-    column-gap: 5%;
+    column-gap: 4%;
     row-gap: 2%;
+    margin-left: 6%;
 }
 
 .no1 {
@@ -124,13 +127,14 @@ h1 {
 
 .udvalg-o {
     color: #ef7b32;
-    font-size: 1.7rem;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+    margin-top: 7%;
 }
 
 .udvalg-t {
     font-size: 0.9rem;
-    margin: 0 10px 10px 10px;
+    margin: 0 5% 7% 5%;
 }
 
 .no5 {
@@ -153,12 +157,11 @@ h1 {
 
 .farvepalette {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 24% 24% 24% 24%;
     grid-template-rows: 16,7% 16,7% 16,7% 16,7% 16,7% 16,7% ;
     column-gap: 1%;
     row-gap: 2%;
-    margin-top: 60px;
-    margin-bottom: 90px;
+    margin: 100px 15px 100px 15px;
 }
 
 .bla1 {
@@ -248,8 +251,7 @@ h1 {
     grid-row-end: 3;
     width: 90%;
     opacity: 70%;
-    margin-left: 30px;
-}
+    }
 
 .gron4:hover {
     opacity: 100%;
@@ -387,6 +389,10 @@ h1 {
     font-size: 1.7rem;
 }
 
+.unikke-hanke a:hover {
+    font-size: 1.8rem;
+}
+
 
      /* Footer */
 
@@ -445,4 +451,305 @@ h1 {
     padding-bottom: 20px;
     padding-top: 20px;
   }
-  
+
+  /* breakpoint 649 */
+  @media screen and (max-width: 649px) and (min-width: 481px) {
+
+    .mobile-container {
+        max-width: 649px;
+        min-width: 481px;
+    }
+
+    .udvalg-o {
+        margin-top: 10%;
+        font-size: 1.5rem;
+    }
+
+    .udvalg-t {
+        margin: 0 5% 7% 5%; 
+        font-size: 1rem;
+    }
+}
+
+
+  /* breakpoint 768 */
+  @media screen and (max-width: 768px) and (min-width: 649px) {
+
+    .mobile-container {
+        max-width: 768px;
+        min-width: 649px;
+    }
+
+    .udvalg-o {
+        margin-top: 20%;
+        font-size: 1.9rem;
+    }
+
+    .udvalg-t {
+        margin: 0 5% 12% 5%; 
+        font-size: 1.2rem;
+    }
+
+  }
+
+
+/* breakpoint 768 */
+@media screen and (max-width: 2300px) and (min-width: 769px) {
+    .mobile-container {
+        min-width: 769px;
+        max-width: 2300px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .udvalg {
+        display: grid;
+        grid-template-columns: 30% 30% 40% ;
+        grid-template-rows: 361px 298,5px 393px ;
+        column-gap: 3%;
+        row-gap: 2%;
+        margin-right: 12%;
+    }
+    
+    .no1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%;
+    } 
+    
+    .no2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 100%;
+    } 
+    
+    .no3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: 100%;
+    } 
+    
+    .no4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 100%;
+    } 
+    
+    .udvalg-o {
+        font-size: 1.8rem;
+        margin-bottom: 3%;
+        margin-top: 7%;
+    }
+    
+    .udvalg-t {
+        font-size: 1rem;
+        margin: 0 5% 7% 5%;
+    }
+    
+    .no5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 130%;
+    } 
+    
+    .no6 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 88%;
+        margin-left: 12%;
+    } 
+
+    .farvepalette {
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        grid-template-rows: 16,7% 16,7% 16,7% 16,7% 16,7% 16,7% ;
+    }
+    
+    .bla1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        width: 80%;
+    }
+    
+    .bla2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: 50%;
+    }
+    
+    .bla3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 60%;
+        margin-top: 60px;
+    }
+    
+    .gron1 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: 100%;
+    }
+    
+    .gron2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 90%;
+        margin-top: 0px;
+    }
+    
+    .gron3 {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        width: 100%;
+    }
+    
+    .gron4 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: 50%;
+        margin-left: 60px;
+        }
+    
+    .farvetekst {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    
+    .farvepalette-o {
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+    
+    .farvepalette-t {
+        margin: 0;
+    }
+    
+    .gron5 {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        width: 110%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .gron6 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        width: 80%;
+        margin-top: -40px;
+    }
+    
+    .rod1 {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        width: 80%;
+    }
+    
+    .rod2 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        width: 90%;
+    }
+    
+    .rod3 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        width: 90%;
+    }
+
+    .rod4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        width: 75%;
+    }
+
+}
+
+/* breakpoint 1200 */
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+    .mobile-container {
+        max-width: 1200px;
+        min-width: 1025px;
+    }
+
+    .udvalg-o {
+        font-size: 2rem;
+    }
+    
+    .udvalg-t {
+        font-size: 1.2rem;
+    }
+
+}
+
+/*2300*/
+@media screen and (max-width: 2300px) and (min-width: 1201px) {
+    .mobile-container {
+        min-width: 1201px;
+        max-width: 2300px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .udvalg-o {
+        font-size: 4em;
+    }
+    
+    .udvalg-t {
+        font-size: 1.5rem;
+    }
+
+
+    .farvepalette-o {
+       font-size: 2.6rem;
+    }
+    
+    .farvepalette-t {
+        font-size: 1.4rem;
+    }
+
+}
