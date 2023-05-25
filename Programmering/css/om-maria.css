@@ -98,7 +98,7 @@ video {
 }
 
 .om-t {
-  font-size: 1.1.rem;
+  font-size: 1.1rem;
   padding: 0px 25px 30px 25px;
 }
 
@@ -133,6 +133,7 @@ h6 {
   color: #ef7b32;
   font-size: 2.2rem;
   margin-bottom: 5px;
+  margin-top: 40px;
 }
  .k-t {
   font-size: 1.1rem;
@@ -148,53 +149,113 @@ h6 {
 
  /* Rejse */
 .rejse1 {
-  margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 50px;
 }
 
  .rejse1 img {
   width: 50%;
-  float: left;
+ }
+
+ #knap:hover {
+  cursor: pointer;
  }
  
  #tekst {
-  display: none;
+  visibility: hidden;
+  height: 80px;
+  background-color: #f9f3ef;
+  margin: 0px 25px;
+  padding: 10px 0 40px 0;
 }
 
+
  .rejse2 {
+  display: flex;
+  flex-direction: row-reverse;
   margin-bottom: 100px;
 }
 
  .rejse2 img {
   width: 19%;
-  float: right;
  }
 
+ #tekst1 {
+  visibility: hidden;
+  height: 50px;
+  background-color: #f9f3ef;
+  margin: 40px 25px 0 25px;
+  padding: 10px 0 40px 0;
+}
+
+#knap1:hover {
+  cursor: pointer;
+}
+
  .rejse3 {
-  margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 150px;
 }
 
  .rejse3 img {
   width: 40%;
-  float: left;
  } 
 
+ #knap2:hover {
+  cursor: pointer;
+}
+
+ #tekst2 {
+  visibility: hidden;
+  height: 30px;
+  background-color: #f9f3ef;
+  margin: 10px 25px 0 25px;
+  padding: 10px 0 40px 0;
+}
+
+
  .rejse4 {
+  display: flex;
+  flex-direction: row-reverse;
   margin-bottom: 100px;
 }
 
  .rejse4 img {
   width: 43%;
-  float: right;
  } 
 
+ #tekst3 {
+  visibility: hidden;
+  height: 80px;
+  background-color: #f9f3ef;
+  margin: 10px 15px 0 10px;
+  padding: 10px 0 40px 0;
+}
+
+#knap3:hover {
+  cursor: pointer;
+}
+
  .rejse5 {
-  margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 30px;
 }
 
  .rejse5 img {
   width: 43%;
-  float: left;
  } 
+
+ #tekst4 {
+  visibility: hidden;
+  height: 120px;
+  background-color: #f9f3ef;
+  margin: 25px 10px 0 25px;
+  padding: 10px 0 40px 0;
+}
+
+#knap4:hover {
+  cursor: pointer;
+}
 
  .rejse6 {
   margin-bottom: 40px;
@@ -202,7 +263,20 @@ h6 {
 
  .rejse6 img {
   width: 40%;
+  background-color: #f9f3ef;
+  padding-top: 0px;
  } 
+
+ #tekst5 {
+  visibility: hidden;
+  height: 60px;
+  background-color: #f9f3ef;
+  margin: 25px 25px 5px 25px;
+}
+
+#knap5:hover {
+  cursor: pointer;
+}
 
  .keramiker a {
   color: #ef7b32;
@@ -275,3 +349,300 @@ h6 {
     padding-top: 20px;
   }
   
+    /* breakpoint 768 */
+    @media screen and (max-width: 768px) and (min-width: 481px) {
+
+      .mobile-container {
+          max-width: 768px;
+          min-width: 481px;
+      }
+
+      .om-maria img {
+        max-width: 60%;
+      }
+
+      .om-o {
+        font-size: 2.5rem;
+      }
+
+      .om-t {
+        padding: 0 100px 70px 100px;
+      }
+
+      .citat h6 {
+        font-size: 3.2rem;
+        margin: 100px 50px;
+      }
+
+      .keramiker {
+        margin: 0px 50px 40px 40px;
+        font-size: 1.2rem;
+      }
+      
+      .k-o {
+        font-size: 2.4rem;
+        margin-top: 50px;
+      }
+       .k-t {
+        font-size: 1.2rem;
+        margin: 10px 10px 60px 10px ;
+       }
+
+      
+       #tekst1 {
+        height: 50px;
+        margin: 80px 55px 0 55px;
+
+      }
+
+       #tekst2 {
+        height: 40px;
+        margin: 10px 45px 0 55px;
+      }
+      
+       #tekst4 {
+        height: 100px;
+        margin: 25px 10px 20px 25px;
+      }
+      
+
+    }
+
+    /* breakpoint 2300 */
+@media screen and (max-width: 2300px) and (min-width: 769px) {
+  .mobile-container {
+      min-width: 769px;
+      max-width: 2300px;
+  }
+
+  .om-maria {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .no1 {
+    flex: 60%;
+    max-width: 40%;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+
+  .no2 {
+    flex: 40%;
+    max-width: 50%;
+    margin: 12% 3%;
+  }
+
+  .om-o {
+    font-size: 3rem;
+  }
+
+  .om-t {
+    font-size: 1.5rem;
+  }
+
+  .citat h6 {
+    font-size: 4rem;
+    margin: 250px 150px;
+  }
+
+
+
+  /* Keramiker */
+.keramiker {
+  text-align: center;
+  margin: 0px 40px 40px 40px;
+}
+
+.k-o {
+  color: #ef7b32;
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+  margin-top: 70px;
+}
+ .k-t {
+  font-size: 1.5rem;
+  margin: 20px 10px 70px 10px ;
+ }
+
+ .rejse {
+  background-image: url(/Programmering/img/tidslinje.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+
+ .rejse {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+  column-gap: 2%;
+  row-gap: 5%;
+ }
+
+ /* Rejse */
+.rejse1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 50px;
+}
+
+ .rejse1 img {
+  width: 50%;
+ }
+
+ #knap:hover {
+  cursor: pointer;
+ }
+ 
+ #tekst {
+  visibility: hidden;
+  height: 80px;
+  background-color: #f9f3ef;
+  margin: 0px 25px;
+  padding: 10px 0 40px 0;
+}
+
+
+ .rejse2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-bottom: 100px;
+}
+
+ .rejse2 img {
+  width: 19%;
+ }
+
+ #tekst1 {
+  visibility: hidden;
+  height: 50px;
+  background-color: #f9f3ef;
+  margin: 40px 25px 0 25px;
+  padding: 10px 0 40px 0;
+}
+
+#knap1:hover {
+  cursor: pointer;
+}
+
+ .rejse3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 150px;
+}
+
+ .rejse3 img {
+  width: 40%;
+ } 
+
+ #knap2:hover {
+  cursor: pointer;
+}
+
+ #tekst2 {
+  visibility: hidden;
+  height: 30px;
+  background-color: #f9f3ef;
+  margin: 10px 25px 0 25px;
+  padding: 10px 0 40px 0;
+}
+
+
+ .rejse4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-bottom: 100px;
+}
+
+ .rejse4 img {
+  width: 43%;
+ } 
+
+ #tekst3 {
+  visibility: hidden;
+  height: 80px;
+  background-color: #f9f3ef;
+  margin: 10px 15px 0 10px;
+  padding: 10px 0 40px 0;
+}
+
+#knap3:hover {
+  cursor: pointer;
+}
+
+ .rejse5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 30px;
+}
+
+ .rejse5 img {
+  width: 43%;
+ } 
+
+ #tekst4 {
+  visibility: hidden;
+  height: 120px;
+  background-color: #f9f3ef;
+  margin: 25px 10px 0 25px;
+  padding: 10px 0 40px 0;
+}
+
+#knap4:hover {
+  cursor: pointer;
+}
+
+ .rejse6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-bottom: 40px;
+}
+
+ .rejse6 img {
+  width: 40%;
+  background-color: #f9f3ef;
+  padding-top: 0px;
+  float: right;
+ } 
+
+ #tekst5 {
+  visibility: hidden;
+  height: 60px;
+  background-color: #f9f3ef;
+  margin: 25px 25px 5px 25px;
+}
+
+#knap5:hover {
+  cursor: pointer;
+}
+
+ .keramiker a {
+  color: #ef7b32;
+  font-size: 1.7rem;
+  padding: 5px 15px 7px 15px;
+  text-decoration: none;
+  background-color: #e9d9c3;
+  border-radius: 10px;
+ }
+
+ .keramiker a:hover {
+  font-size: 1.8rem;
+ }
+
+
+}
