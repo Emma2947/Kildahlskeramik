@@ -337,3 +337,92 @@ margin-bottom: 30px;
     padding-top: 20px;
   }
   
+
+
+/*BREAKPOINT 1*/
+
+@media screen and (max-width: 768px) and (min-width: 481px)
+
+{
+
+ .mobile-container {
+ max-width: 768px;
+ background-color: #f9f3ef;
+}
+
+
+}
+
+
+/*BREAKPOINT 2*/
+
+@media screen and (max-width: 1025px) and (min-width: 769px) {
+
+  .mobile-container {
+    max-width: 1025px;
+    background-color:#ffb17d;
+    } 
+}
+
+.om-maria img {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.om-maria-overskrift {
+  text-align: center;
+}
+
+.om-maria-tekst {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.kontakt-tekst {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+/*BREAKPOINT 3*/
+
+@media screen and (max-width: 1200px) and (min-width: 1026px) {
+
+  .mobile-container {
+    max-width: 1200px;
+    background-color: #7a7a7a
+    }     
+    
+    .om-maria img {
+      width: 30%;
+      margin-top: 7%;
+      margin-bottom: -10%;
+      margin-left: 5%;
+      /* float: left;  kan ikke få billedet til at ligge til venstre grundet den skjulte margin*/
+
+    }
+
+
+    .om-maria {
+      display: flex;
+      align-items: center;
+    }
+
+
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*BREAKPOINT 4*/
+
+@media screen and (max-width: 1600px) and (min-width: 1201px) {
+
+  .mobile-container {
+    max-width: 1600px;
+    background-color: #ff6600;
+     }
+}
+
+
+
