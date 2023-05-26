@@ -379,7 +379,7 @@ p.om-maria-tekst {
 
   .mobile-container {
     max-width: 1025px;
-    background-color:#ffb17d;
+    background-color:#f9f3ef;
     }
 
     /* mit keramik knap*/
@@ -394,7 +394,7 @@ p.om-maria-tekst {
 
 }
 
-/* styling af billede og tekst i om maria */
+/* styling af om maria afsnit */
 
 .maria-forside-billede {
   width: 170%;
@@ -407,6 +407,7 @@ p.om-maria-tekst {
 
 .om-maria-overskrift-tekst-knap {
   text-align: left;
+  margin-top: 10%;
 
 }
 
@@ -424,29 +425,37 @@ p.om-maria-tekst {
 }
 
 
+/* styling af proces afsnit */
+
+img.ler-drejning {
+  width: 100%;
 }
 
-/*
-.om-maria img {
-  width: 50%;
-  margin-left: 25%;
+.proces {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.om-maria-overskrift {
-  text-align: center;
+.proces-overskrift {
+  text-align: left;
 }
 
-.om-maria-tekst {
-  text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+.proces-tekst {
+  text-align: left;
 }
 
-.kontakt-tekst {
-  margin-left: 25%;
-  margin-right: 25%;
-} 
-*/
+.proces-overskrift {
+  text-align: left;
+}
+
+h3.proces-overskrift {
+  margin: 8%;
+  margin-top: 20%;
+}
+
+
+}
+
 
 
 /*BREAKPOINT 3*/
@@ -458,28 +467,16 @@ p.om-maria-tekst {
     background-color: #7a7a7a
     }     
     
-     /* .om-maria img {
-      width: 30%;
-      margin-top: 7%;
-      margin-bottom: -10%;
-      margin-left: 5%;
-      float: left;  kan ikke få billedet til at ligge til venstre grundet den skjulte margin
-    } 
+    .mit-keramik a {
+      padding: 3px 10px;
+      font-size: 2.5rem;
+      float: right;
+      margin-right: 50px;
+      margin-top: -110px;
+      z-index: 1000;
 
-    .om-maria img {
-      width: 30%;
-      margin-top: 7%;
-      margin-bottom: -10%;
-      margin-left: 5%;
-      display: flex;
-    }
+}
 
-
-    .om-maria {
-      display: flex;
-      align-items: center;
-    }
-    */
 
 }
 
@@ -493,6 +490,20 @@ p.om-maria-tekst {
     max-width: 1600px;
     background-color: #ff6600;
      }
+
+     .mit-keramik a {
+      padding: 3px 10px;
+      font-size: 2.5rem;
+      float: right;
+      margin-right: 50px;
+      margin-top: -110px;
+      z-index: 1000;
+
+}
+
+
+
+
 }
 
 
