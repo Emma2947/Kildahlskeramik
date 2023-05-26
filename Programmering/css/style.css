@@ -111,7 +111,7 @@ nav a.icon {
     font-size: 1.7rem;
     border-radius: 10px;
     float: right;
-    margin-right: px;
+    margin-right: 25px;
     margin-top: -90px;
     z-index: 1000;
 }
@@ -126,9 +126,8 @@ nav a.icon {
 
 .om-maria img {
     width: 60%;
-    margin-top: 70px;
+    margin-top: 40px;
     box-shadow: 0px 5px 15px -10px #7f5849;
-
 }
 
 .om-maria-overskrift {
@@ -140,6 +139,7 @@ nav a.icon {
 .om-maria-tekst {
     text-align: center;
     margin: 0% 10%;
+    background-color: #f9f3ef;
 }
 
 .om-maria a {
@@ -359,9 +359,10 @@ p.om-maria-tekst {
   
 
 
+/*
 /*BREAKPOINT 1*/
 
-@media screen and (max-width: 768px) and (min-width: 481px)
+/*@media screen and (max-width: 768px) and (min-width: 481px)
 
 {
 
@@ -371,12 +372,12 @@ p.om-maria-tekst {
 }
 
 
-}
+}*/
 
 
 /*BREAKPOINT 2*/
 
-@media screen and (max-width: 1025px) and (min-width: 769px) {
+/*@media screen and (max-width: 1025px) and (min-width: 769px) {
 
   .mobile-container {
     max-width: 1025px;
@@ -385,7 +386,7 @@ p.om-maria-tekst {
 
     /* mit keramik knap*/
     
-    .mit-keramik a {
+    /*.mit-keramik a {
       padding: 3px 10px;
       font-size: 2.5rem;
       float: right;
@@ -395,7 +396,6 @@ p.om-maria-tekst {
 
 }
 
-/* styling af om maria afsnit */
 
 .maria-forside-billede {
   width: 170%;
@@ -428,7 +428,7 @@ p.om-maria-tekst {
 
 /* styling af proces afsnit */
 
-img.ler-drejning {
+/*img.ler-drejning {
   width: 100%;
 }
 
@@ -455,13 +455,13 @@ h3.proces-overskrift {
 }
 
 
-}
+} */
 
 
 
 /*BREAKPOINT 3*/
 
-@media screen and (max-width: 1200px) and (min-width: 1026px) {
+/*@media screen and (max-width: 1200px) and (min-width: 1026px) {
 
   .mobile-container {
     max-width: 1200px;
@@ -479,13 +479,13 @@ h3.proces-overskrift {
 }
 
 
-}
+}*/
 
 
 /*-----------------------------------------------------------------------------*/
 /*BREAKPOINT 4*/
 
-@media screen and (max-width: 1600px) and (min-width: 1201px) {
+/*@media screen and (max-width: 1600px) and (min-width: 1201px) {
 
   .mobile-container {
     max-width: 1600px;
@@ -505,7 +505,7 @@ h3.proces-overskrift {
 
 
 
-}
+} */
 
 
 
