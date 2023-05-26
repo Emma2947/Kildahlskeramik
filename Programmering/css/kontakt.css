@@ -1,82 +1,8 @@
-body {
-    font-family: "baskerville-urw", serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-        p {
-            font-family: "kozuka-gothic-pro", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-    
-      
-    .mobile-container {
-        max-width: 480px;
-        color: #7f5849;
-        margin: 0;
-        background-color: #f9f3ef;
-    }
-    
-    /*Styling af Navigationen og burgermenuen*/
-    
-    #topnav {
-        overflow: hidden;
-        position: relative;
-       
-        z-index: 100000;
-        background-color: #f9f3ef;
-      }
-    
-    nav img {
-        width: 100px;
-    }
-    
-    #menu {
-        display: none;
-        z-index: 9999;
-        padding-inline-start: 0;
-      }
-    
-    nav li {
-        list-style-type: none;
-        z-index:9999;
-        text-align: center;
-      }
-    
-      #menu a {
-        color: #7f5849;
-        text-decoration: none;
-        font-size: 15px;
-      }
-    
-      #menu a:hover {
-        font-size: 1.1rem;
-      }
-    
-      .fa {
-        color: #7f5849;
-        padding: 25px 25px;
-        text-decoration: none;
-        font-size: 40px;
-      }
-    
-      #topnav .icon:hover {
-        background-color: #f5efeb;
-      }
-    
-    nav a.icon {
-        position: absolute;
-        float: right;
-        display: block;
-        right: 0px;
-        top: 10px;
-    }
+
 /*styling af indhold*/
-
-
-    .kontakt
-      { 
+    .kontakt { 
         text-align: center;
+        margin-top: 95px;
       }
   
     .kontakt-overskrift { 
@@ -89,31 +15,31 @@ body {
       text-align: center;
       margin: 0% 10%;
     }
+
     .kontakt {
       background-image: url(/Programmering/img/baggrund-illustration.svg);
-      background-size: cover;
-  }
-    /*styling af kontakt formular*/
+      background-size: cover
+    }
+/*styling af kontakt formular*/
 
-    .formular-knapper
-    { text-decoration: none;
+    .formular-knapper { 
+      text-decoration: none;
       color:#7f5849;
       padding: 2px 10px;
       font-size: 1.7rem;
       border-radius: 10px;
     }
 
-      .formular-knapper 
-        {
-          justify-content: center;
-          display: flex;
-          margin-left: 95px;
-          margin-right: 95px;
-          margin-top: 20px;
-          margin-bottom: 30px;
-          }
+      .formular-knapper {
+         justify-content: center;
+         display: flex;
+         margin-left: 95px;
+         margin-right: 95px;
+         margin-top: 20px;
+         margin-bottom: 30px;
+         }
 
-      .input{
+      .input {
         background-color: #e9d9c3;
         color: #ef7b32;
         padding: 12px 20px;
@@ -125,6 +51,7 @@ body {
         font-weight: 300;
         font-style: normal;
       }
+
       .input:hover{
        color: #f9f3ef; 
       }
@@ -135,13 +62,16 @@ body {
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        width: 230px;
       }
+
       .label-email{
         color: #7f5849;
         padding: 12px 20px;
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        width: 230px;
       }
 
       .label-message{
@@ -150,20 +80,20 @@ body {
         border: none;
         border-radius: 4px;
         cursor: pointer;
-
-       
+        width: 230px;
       }
       
       .label-send{
         text-decoration: none;
         color: #ef7b32;
         background-color:#e9d9c3;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 0px 10px 5px 10px;
         font-size: 1.7rem;
         font-family: "baskerville-urw", serif;
-    font-weight: 400;
-    font-style: normal;
+        font-weight: 400;
+        font-style: normal;
+        width: 230px;
       }
     
      .label-send:hover{
@@ -171,6 +101,7 @@ body {
         font-size: 1.8rem
       }
 
+      /*slettes evt---------------------------------------*/
     /*Styling af pop-up confirmation*/
     .confirmation-message {
       display: none;
@@ -183,21 +114,25 @@ body {
       border: 1px solid #ccc;
       text-align: center;
     }
+
    .link a{
     display: none;
    }
+
    hidden a{
     display: none;
   }
+/*-------------------------------*/
 
-
- /*Styling af markedskalender*/
+/*Styling af markedskalender*/
      
     
      .markedskalender{
       background-color: #f8c576;
       text-align: center;
       padding: 0px 20px 40px 20px;
+      padding-top: 25px;
+      padding-bottom: 25px;
   }
   .kalender{
     height:150px
@@ -256,7 +191,7 @@ body {
     background-color:#e9d9c3;
     border-radius: 10px;
     padding: 0px 10px 5px 10px;
-    font-size: 1.7rem;
+    font-size: 1rem;
   }
 
   .knap:hover{
@@ -267,219 +202,140 @@ body {
   .conformation-tekst{
     font-size: 100px;
   }
-     /* Footer */
 
-  footer {
-    background-color: #e9d9c3;
-    text-align: center;
-    padding-top: 20px;
-  }
-
-  .menu-footer h3 {
-    font-size: 1.5rem;
-  }
-
-  .menu-footer a {
-    color: #7f5849;
-    text-decoration: none;
-    font-family: "kozuka-gothic-pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  footer ul {
-    text-align: center;
-  }
-
-  footer li {
-    list-style-type: none;
-    margin: 10px 50px 10px 10px;
-  }
-
-  .some h3 {
-    font-size: 1.5rem;
-  }
-
-  .some img {
-    width: 10%;
-    display: block;
-    padding-left: 120px;
-  }
-
-  .some a {
-    color: #7f5849;
-    text-decoration: none;
-    font-family: "kozuka-gothic-pro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  .logo-footer {
-    width: 40%;
-    margin-right: 40px;
-    margin-top: 40px;
-  }
-
-  footer p {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
   
     /*----------------------BREAKPOINTS-----------*/
-          /*breakpoint 1 */
+     /*breakpoint 1 */
           @media screen and (max-width: 768px) and (min-width:481px)
-          {
-            .mobile-container{
-              max-width: 768px;
-            }
-    
-            .popup .popuptext {
-              width: 200px; 
+          {.mobile-container {max-width: 768px;}
+           
+          .popup .popuptext 
+            {width: 200px; }
 
-            
-          }
-          .label-send{
-            padding: 2px 15px 8px 15px;
-          }
+            .label-send 
+            {padding: 2px 15px 8px 15px;}
     
-          .kalender{
-            height: 300px;
-          }
+            .kalender 
+            {height: 300px;}
+
+            .knap
+            { font-size: 1.7rem;}
           }
 
 
 
   /*--------------------------------------------*/
-            /*breakpoint 2 */
+   /*breakpoint 2 */
             @media screen and (max-width: 1025px) and (min-width:769px)
-            {
-              .mobile-container {
-                max-width: 1025px;
-                }   
+            {.mobile-container {max-width: 1025px;}   
                
-                .h1 {
-                 font-size: 3rem;
-                }
+              .h1 
+              {font-size: 3rem;}
 
-                .h2 {
-                 font-size: 3rem;
-                 }
+              .h2 
+              {font-size: 3rem;}
                  
-                .p {
-                 font-size: 1.8rem;
-                } 
-                .h4 {
-                  font-size: 3rem;
-                 } 
-/*Styling af Illustrationer, Motion Graphics + sektionen*/
-.kontakt{
+              .p 
+              {font-size: 1.8rem;}
+
+             .h4
+              {font-size: 3rem;} 
+/*Styling af Illustrationer + sektionen*/
+.kontakt
+{
   padding-left: 30%;
   padding-right: 30%;
   margin-top: 15%;
 }
 
-
 .formular-knapper
-    {
+{
       padding: 2px 10px;
       font-size: 1.7rem;
       border-radius: 10px;
-    }
-    .popup .popuptext {
-      width: 300px; 
-  }
-  .kalender{
-    height: 400px;
-  }
- 
-  }
-  
-        /*breakpoint 3 */
-        @media screen and (max-width: 1200px) and (min-width:1026px)
-        {
-          .mobile-container{
-            max-width: 1200px;
-          }
-          /*Styling af tekst*/
-          .h1 {
-            font-size: 4rem;
-           }
+}
+.popup .popuptext 
+{width: 300px;}
 
-           .h2 {
-            font-size: 4rem;
-            }
+.kalender
+{height: 400px;}
+
+.knap
+{font-size: 1.7rem;}
+
+}
+  
+/*breakpoint 3 */
+        @media screen and (max-width: 1200px) and (min-width:1026px)
+        {.mobile-container { max-width: 1200px;}
+/*Styling af tekst*/
+
+          .h1 
+          {font-size: 4rem;}
+
+          .h2
+          {font-size: 4rem;}
             
-           .p {
-            font-size: 2rem;
-           } 
-           .h4 {
-             font-size: 3rem;
-            } 
+          .p
+          {font-size: 2rem;}
+
+          .h4
+          {font-size: 3rem;} 
 
 /*Styling af Illustrationer, sektionen*/
-.kontakt{
-padding-left: 30%;
-padding-right: 30%;
-margin-top: 10%;
-margin-bottom: 10%;
-}
-.kalender {
-  height: 400px;
-}
+
+
+.kalender
+{height: 400px;}
+
 .markedskalender
 {
   padding-left: 30%;
   padding-right: 30%;
   margin-top: 20%;
   margin-bottom: 15%;
-  }
-
-  .popup .popuptext {
-    width: 400px; 
 }
+
+  .popup .popuptext
+{width: 400px;}
+
 .formular-knapper
 {
  padding: 2px 10px;
  font-size: 2.7rem;
  border-radius: 10px;
 }
-.baggrund{
-  height: 300px;
+
+.baggrund
+{height: 300px;}
+
+.knap
+{ font-size: 1.7rem;}
+
+
 }
 
-        }
-          /*breakpoint 4 */
-        @media screen and (max-width: 1600px) and (min-width:1201px){
-          .mobile-container{
-            max-width: 1600px;
-          }
-            /*Styling af tekst*/
-          .h1 {
-            font-size: 5rem;
-           }
+/*breakpoint 4 */
 
-           .h2 {
-            font-size: 5rem;
-            }
+        @media screen and (max-width: 1600px) and (min-width:1201px)
+        { .mobile-container{max-width: 1600px;}
+
+
+/*Styling af tekst*/
+.h1 
+{font-size: 5rem;}
+
+.h2 
+{font-size: 5rem;}
             
-           .p {
-            font-size: 3.6rem;
-           } 
-           .h4 {
-             font-size: 4rem;
-            } 
+.p 
+{font-size: 3.6rem;} 
+
+.h4 {font-size: 4rem;} 
           
  
 /*Styling af Illustrationer, sektionen*/
-.kontakt{
-padding-left: 30%;
-padding-right: 30%;
-margin-top: 10%;
-margin-bottom: 10%;
-}
-.kalender {
-  height: 600px;
-}
+
 .markedskalender
 {
   padding-left: 30%;
@@ -487,27 +343,30 @@ margin-bottom: 10%;
   margin-top: 30%;
   margin-bottom: 15%;
 }
-.kalender{
+.kalender
+{
   padding-right: 800px;
   margin:auto;
+  height: 600px;
 }
-  .popup .popuptext {
-    width: 500px; 
-
-}
+  
 .baggrund{
   height: 300px;
 }
-.popup{
+
+.popup .popuptext 
+{
+  width: 200px; 
   text-align: center;
-}
-.popup {
-  position: center;
 }
 
-.popup .popuptext {
-  width: 800px; 
+.knap
+{font-size: 1.7rem;}
+.kontakt { 
   text-align: center;
 }
+
+
+         
 }
 /*-----------------------------------------*/

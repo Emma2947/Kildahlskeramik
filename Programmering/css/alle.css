@@ -163,9 +163,17 @@ body {
         padding-top: 20px;
       }
 
-@media screen and (max-width: 1025px) and (min-width: 768px) {
+ /*-----------------------------------------------------------------------------*/
+ /*BREAKPOINT 1*/
+ @media screen and (max-width: 768px) and (min-width: 481px) {
+     .mobile-container {
+       max-width: 768px;
+      }
+ }
+
+@media screen and (max-width: 1025px) and (min-width: 769px) {
     .mobile-container {
-        min-width: 768px;
+        min-width: 769px;
         max-width: 1025px;
     }
 
@@ -255,4 +263,33 @@ body {
     }
 
  }  
-      
+
+  /*-----------------------------------------------------------------------------*/
+ /*BREAKPOINT 3*/
+ @media screen and (max-width: 1200px) and (min-width: 1026px) {
+
+ .mobile-container {
+ max-width: 1200px;
+ }   
+} 
+
+
+ /*-----------------------------------------------------------------------------*/
+ /*BREAKPOINT 4*/
+ @media screen and (max-width: 1600px) and (min-width: 1201px) {
+
+
+ .mobile-container {
+  max-width: 1600px;
+  background-color: #f9f3ef;
+  }
+ 
+}
+
+@media screen and (max-width: 2300px) and (min-width: 1601px){
+  .mobile-container {
+    min-width: 1601px;
+    max-width: 2300px;
+  }
+
+}
