@@ -155,10 +155,18 @@ nav a.icon {
     border-radius: 10px;
 }
 
-.laer-mig {
+/* forsøg på at få knap placeret i midten*/
+section.om-maria {
   text-align: center;
-  padding: 0px 20px 40px 20px;
+  padding-bottom: 10%;
 }
+
+p.om-maria-tekst {
+  padding-bottom: 10%;
+}
+
+
+
 
 /* forsøg på at få knap placeret i midten 
 .om-maria a {
@@ -256,8 +264,6 @@ margin-bottom: 30px;
     bottom: 0;
     width: 100%;
   }
-
-
 
   .kontakt {
     text-align: center;
