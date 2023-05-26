@@ -49,10 +49,11 @@ body {
         color: #7f5849;
         text-decoration: none;
         font-size: 1.1rem;
+        transition: transform 0.3s ease-in-out;
       }
     
       #menu a:hover {
-        font-size: 1.2rem;
+        transform: scale(1.2);
       }
     
       .fa {
@@ -95,7 +96,6 @@ body {
         font-family: "kozuka-gothic-pro", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.1rem;
       }
     
       footer ul {
@@ -108,8 +108,22 @@ body {
         margin: 10px 50px 10px 10px;
       }
 
-      footer a:hover {
+      .liste a {
+        font-size: 1.1rem;
+        transition: transform 0.1s ease-in-out;
+      }
+
+      .menu-footer li:hover {
+        transform: scale(1.1);
+      }
+
+      footer a {
         font-size: 1.2rem;
+        transition: transform 0.1s ease-in-out;
+      }
+
+      footer a:hover {
+        transform: scale(1.1);
       } 
     
       .some h3 {
@@ -185,6 +199,39 @@ body {
     .mobile-container {
         min-width: 1025px;
     }
+
+    .topindhold {
+        overflow: visible;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .fa {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        margin-right: 3%;
+      }
+    
+    nav li {
+        margin-right: 4%;
+      }
+    
+      #menu a {
+       font-size: 1.7rem; 
+        transition: transform 0.3s ease-in-out;
+      }
+    
+      nav li:hover {
+        transform: scale(1.1) !important;
+      }
+    
+
     .footer {
         display: flex;
         justify-content: center;
