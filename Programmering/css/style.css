@@ -243,13 +243,36 @@ margin-bottom: 30px;
 
 
   /* kontakt */
+  #map-section {
+    position: relative;
+    height: 300px; /* Just an example height, adjust as needed */
+  }
 
   #map {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    width: 80%;
   }
+  .marker {
+    background-image: url('/Programmering/img/placering.gif');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+    .mapboxgl-popup {
+     max-width: 200px;
+    }
+
+    .mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
 
 
 
@@ -267,7 +290,7 @@ margin-bottom: 30px;
     margin: 0px 30px 25px 30px;
   }
 
-  .kontakt a {
+  .tekst-sektion a {
     text-decoration: none;
     color: #ef7b32;
     background-color: #e9d9c3;
@@ -276,7 +299,7 @@ margin-bottom: 30px;
     border-radius: 10px;
   }
 
-  .kontakt a:hover {
+  .tekst-sektion a:hover {
     font-size: 1.8rem;
   }
 
