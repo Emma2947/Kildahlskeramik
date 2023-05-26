@@ -17,7 +17,7 @@
 <div class="mobile-container">
 
     <!--Menu bar-->
-    <nav class="topnav">
+    <nav id="topnav" class="topnav">
         <div class="topindhold">
            <a href="index.html"><img src="img/kildahls-keramik-logo-baggrund.gif" alt="Kildahls Keramik Logo" class="logo"></a>
             <ul id="menu">
@@ -39,14 +39,17 @@
     <!--Indhold-->
     <main>
         
-        <section class="mit-keramik">
+        <section class="mit-keramik" id="mit-keramik">
             <img src="img/tre-gule-kopper-med-unikke-hanke.jpg" alt="Tre gule keramik kopper med unikke hanke">
             <h1><a href="html/mit-keramik.html">Mit Keramik</a></h1>
         </section>
 
 
         <section class="om-maria">
+            <div class="billede">
             <img src="img/maria-vaerksted.jpg" alt="Maria ved drejebænken">
+            </div>
+            <div class="tekst">
             <h2 class="om-maria-overskrift">Om Maria</h2>
             <p class="om-maria-tekst">
             Jeg er helt forelsket i leret som materiale! 
@@ -57,6 +60,7 @@
             <br>
             ”funktionalitet, detalje og elegance”</p>
             <a href="html/om-maria.html" id="laer-mig">Lær mig bedre at kende</a>
+            </div>
         </section>
 
 
@@ -96,10 +100,11 @@
     </main>
 
     <footer>
-        
+        <div class="footer">
+
         <div class="menu-footer">
         <h3>Menu</h3>
-        <ul>
+        <ul class="liste">
             <li><a href="html/mit-keramik.html">Mit Keramik</a></li>
             <li><a href="html/proces.html">Proces</a></li>
             <li><a href="html/om-maria.html">Om Maria</a></li>
@@ -109,16 +114,20 @@
 
         <div class="some">
         <h3>Sociale Medier</h3>
-        <img src="img/instagram.png" alt="Kildahls Keramik på Instagram">
-        <a href="https://www.instagram.com/kildahls_keramik/" target="_blank">@kildahlskeramik</a>
+        <div class="some-content">
+           <img src="img/instagram.png" alt="Kildahls Keramik på Instagram">
+            <a href="https://www.instagram.com/kildahls_keramik/" target="_blank">@kildahlskeramik</a> 
+        </div>
+        
+        <div class="some-content">
         <img src="img/facebook.png" alt="Kildahls Keramik på Facebook">
         <a href="https://www.facebook.com/kildahlskeramik" target="_blank">Kildahls Keramik</a>
-        </div>
-
-        <a href="/Programmering/index.html"><img src="img/kildahls-keramik-logo.svg" alt="Kildahls Keramik" class="logo-footer"></a>
-
-
-        <p>Kildahls Keramik &copy 2023</p>
+        </div> </div>
+        
+        <div class="logo-sec">
+        <a href="index.html"><img src="img/Kildahls-keramik-logo.svg" alt="Kildahls Keramik" class="logo-footer"></a>
+        </div></div>
+        <p class="copy">Kildahls Keramik &copy 2023</p>
 
     </footer>
 </div>

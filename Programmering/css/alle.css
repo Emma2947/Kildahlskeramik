@@ -63,10 +63,6 @@ body {
         font-size: 40px;
       }
     
-      #topnav .icon:hover {
-        background-color: #f5efeb;
-      }
-    
     nav a.icon {
         position: absolute;
         float: right;
