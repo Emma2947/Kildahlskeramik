@@ -31,4 +31,21 @@ function myFunction() {
   }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  var videos = document.getElementsByClassName('proces-video-vis-venstre');
+  for (var i = 0; i < videos.length; i++) {
+    videos[i].play();
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var videos = document.getElementsByClassName('proces-video-vis-hojre');
+  for (var i = 0; i < videos.length; i++) {
+    videos[i].play();
+  }
+});
+
+
+
+
   
