@@ -1,79 +1,4 @@
- body {
- font-family: "baskerville-urw", serif;
- font-weight: 400;
- font-style: normal;
- }
-
- p {
- font-family: "kozuka-gothic-pro", sans-serif;
- font-weight: 300;
- font-style: normal;
- }
-    
- .mobile-container {
- max-width: 480px;
- color: #7f5849;
- margin: 0;
- background-color: #f9f3ef;
- }
-
-
  
- /*Styling af Navigationen og burgermenuen*/
- #topnav {
- overflow: hidden;
- position: relative;
- z-index: 100000;
- background-color: #f9f3ef;
- }
-    
- nav img {
- width: 100px;
- }
-    
- #menu {
- display: none;
- z-index: 9999;
- padding-inline-start: 0;
- }
-    
- nav li {
- list-style-type: none;
- z-index:9999;
- text-align: center;
- }
-    
- #menu a {
- color: #7f5849;
- text-decoration: none;
- font-size: 15px;
- }
-    
- #menu a:hover {
- font-size: 1.1rem;
- }
-    
- .fa {
- color: #7f5849;
- padding: 25px 25px;
- text-decoration: none;
- font-size: 40px;
- }
-    
- #topnav .icon:hover {
- background-color: #f5efeb;
- }
-    
- nav a.icon {
- position: absolute;
- float: right;
- display: block;
- right: 0px;
- top: 10px;
- } 
-
-
-
  /*Styling af fra-ler-til-kop-proces*/
  h1 {
  text-align: center;
@@ -251,66 +176,6 @@
  grid-row-end: 5;
  width: 85%;
  } 
-
-
-
- /*Styling af footer */
- footer {
- background-color: #e9d9c3;
- text-align: center;
- padding-top: 20px;
- }
-
- .menu-footer h3 {
- font-size: 1.5rem;
- }
-
- .menu-footer a {
- color: #7f5849;
- text-decoration: none;
- font-family: "kozuka-gothic-pro", sans-serif;
- font-weight: 300;
- font-style: normal; 
- }
-
- footer ul {
- text-align: center;
- }
-
- footer li {
- list-style-type: none;
- margin: 10px 50px 10px 10px;
- }
-
- .some h3 {
- font-size: 1.5rem;
- }
-
- .some img {
- width: 10%;
- display: block;
- padding-left: 120px
- }
-
- .some a {
- color: #7f5849;
- text-decoration: none;
- font-family: "kozuka-gothic-pro", sans-serif;
- font-weight: 300;
- font-style: normal;
- }
-
- .logo-footer {
- width: 40%;
- margin-right: 40px;
- margin-top: 40px;
- }
-
- footer p {
- padding-bottom: 20px;
- padding-top: 20px;
- }
-
 
 
  /*-----------------------------------------------------------------------------*/
@@ -603,4 +468,14 @@
  margin-right: 38%;
  }
 
+ }
+
+
+ @media screen and (max-width: 2300px) and (min-width: 1601px){
+    .mobile-container {
+      min-width: 1601px;
+      max-width: 2300px;
+      width: 100%;
+    }
+  
  }
