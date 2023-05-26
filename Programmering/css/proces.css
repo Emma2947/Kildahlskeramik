@@ -1,366 +1,358 @@
-body {
+ body {
  font-family: "baskerville-urw", serif;
  font-weight: 400;
  font-style: normal;
-}
+ }
 
-p {
+ p {
  font-family: "kozuka-gothic-pro", sans-serif;
  font-weight: 300;
  font-style: normal;
-}
+ }
     
-.mobile-container {
+ .mobile-container {
  max-width: 480px;
  color: #7f5849;
  margin: 0;
  background-color: #f9f3ef;
-}
+ }
 
 
-
-/*Styling af Navigationen og burgermenuen*/
-    
-#topnav {
+ 
+ /*Styling af Navigationen og burgermenuen*/
+ #topnav {
  overflow: hidden;
  position: relative;
  z-index: 100000;
  background-color: #f9f3ef;
-}
+ }
     
-nav img {
+ nav img {
  width: 100px;
-}
+ }
     
-#menu {
+ #menu {
  display: none;
  z-index: 9999;
  padding-inline-start: 0;
-}
+ }
     
-nav li {
+ nav li {
  list-style-type: none;
  z-index:9999;
  text-align: center;
-}
+ }
     
-#menu a {
+ #menu a {
  color: #7f5849;
  text-decoration: none;
  font-size: 15px;
-}
+ }
     
-#menu a:hover {
+ #menu a:hover {
  font-size: 1.1rem;
-}
+ }
     
-.fa {
+ .fa {
  color: #7f5849;
  padding: 25px 25px;
  text-decoration: none;
  font-size: 40px;
-}
+ }
     
-#topnav .icon:hover {
+ #topnav .icon:hover {
  background-color: #f5efeb;
-}
+ }
     
-nav a.icon {
+ nav a.icon {
  position: absolute;
  float: right;
  display: block;
  right: 0px;
  top: 10px;
-}
+ } 
 
 
 
-/*Styling af fra-ler-til-kop-proces*/
-
-h1 {
+ /*Styling af fra-ler-til-kop-proces*/
+ h1 {
  text-align: center;
  font-size: 2.2rem;  
-}
+ }
 
-.proces-o {
-  text-align: center;
-  font-size: 2 rem;
-  color: #ef7b32;
-  margin-top: -25px; 
-}
+ .proces-o {
+ text-align: center;
+ font-size: 2 rem;
+ color: #ef7b32;
+ margin-top: -25px; 
+ }
 
-/*Styling af grid + baggrundsbillede*/
-.rejsen {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  grid-template-rows: auto auto;
-  gap: 15px;
-  background-image: url("/Programmering/img/processtreg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+ /*Styling af grid + baggrundsbillede*/
+ .rejsen {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ grid-template-rows: auto auto;
+ gap: 15px;
+ background-image: url("/Programmering/img/processtreg.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ margin-left: 5%;
+ margin-right: 5%;
+ }
 
-/*Styling af tekst + illustrationer*/
-.proces-img-vis-venstre {
-  display: none;
-}
+ /*Styling af tekst + illustrationer*/
+ .proces-img-vis-venstre {
+ display: none;
+ }
 
-.proces-img-vis-hojre {
-  display: none;
-}
+ .proces-img-vis-hojre {
+ display: none;
+ }
 
-.proces-video-vis-venstre {
-  display: none;
-}
+ .proces-video-vis-venstre {
+ display: none;
+ }
 
-.proces-video-vis-hojre {
-  display: none;
-}
+ .proces-video-vis-hojre {
+ display: none;
+ }
 
-#proces-video2-vis {
-  display: none;
-}
+ #proces-video2-vis {
+ display: none;
+ }
 
-.proces-img {
+ .proces-img {
  height: 120px;
  width: 120px;
-}
+ }
 
-.proces-video {
-  width: 100%;  
-}
+ .proces-video {
+ width: 100%;  
+ }
 
-#proces-video2 {
-width: 350px;  
-}
+ #proces-video2 {
+ width: 350px;  
+ }
 
-.proces-tekst-venstre {
-text-align:center;
-}
+ .proces-tekst-venstre {
+ text-align:center;
+ background-color: #f9f3ef;
+ }
 
-.proces-tekst-hojre {
-text-align: center;
-padding-right: 50px;
-}
+ .proces-tekst-hojre {
+ text-align: center;
+ padding-right: 50px;
+ background-color: #f9f3ef;
+ }
 
-.div-img {
-  text-align: center;
-}
+ .div-img {
+ text-align: center;
+ }
 
-.img-tekst {
-text-align: center;
-}
+ .img-tekst {
+ text-align: center;
+ }
 
-/*Styling af nederste kop + tekst*/
-
-.proces-tekst-midten {
-  text-align: center; 
-  margin-left: 10%;
-  margin-right: 10%;
+ /*(Styling af nederste kop + tekst)*/
+ .proces-tekst-midten {
+ text-align: center; 
+ margin-left: 10%;
+ margin-right: 10%;
  }
 
 
 
-/*Styling af billede gallari*/
+ /*Styling af billede gallari*/
+ h2 {
+ text-align: center;
+ font-size: 2.2rem;
+ }
 
-h2 {
-  text-align: center;
-  font-size: 2.2rem;
-}
+ .mit-varksted {
+ display: grid;
+ grid-template-columns: 33% 66% ;
+ grid-template-rows: auto 167,155px 167,155px 167,155px;
+ column-gap: 4%;
+ row-gap: 2%;
+ margin-left: 6%;
+ margin-bottom: 15%;
+ }
 
-.mit-varksted {
-  display: grid;
-  grid-template-columns: 33% 66% ;
-  grid-template-rows: auto 167,155px 167,155px 167,155px;
-  column-gap: 4%;
-  row-gap: 2%;
-  margin-left: 6%;
-  margin-bottom: 15%;
-}
+ .no1 {
+ grid-column-start: 1;
+ grid-column-end: 3;
+ grid-row-start: 1;
+ grid-row-end: 2;
+ width: 90%;
+ } 
 
-.no1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  width: 90%;
-} 
+ .no2 {
+ grid-column-start: 1;
+ grid-column-end: 2;
+ grid-row-start: 2;
+ grid-row-end: 3;
+ width: 100%;
+ height: 100%;
+ } 
 
-.no2 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  width: 100%;
-  height: 100%;
-} 
+ .no3 {
+ grid-column-start: 2;
+ grid-column-end: 3;
+ grid-row-start: 2;
+ grid-row-end: 4;
+ width: 85%;
+ height: 100%;
+ } 
 
-.no3 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  width: 85%;
-  height: 100%;
-} 
+ .no4 {
+ grid-column-start: 1;
+ grid-column-end: 2;
+ grid-row-start: 3;
+ grid-row-end: 4;
+ width: 100%;
+ background-color: #e9d9c3;
+ text-align: center;
+ } 
 
-.no4 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  width: 100%;
-  background-color: #e9d9c3;
-  text-align: center;
-} 
+ .udvalg-o {
+ color: #ef7b32;
+ font-size: 1.5rem;
+ margin-bottom: 3%;
+ margin-top: 7%;
+ margin-bottom: 10px;
+ }
 
-.udvalg-o {
-  color: #ef7b32;
-  font-size: 1.5rem;
-  margin-bottom: 3%;
-  margin-top: 7%;
-  margin-bottom: 10px;
-}
+ .udvalg-t {
+ margin: 0 5% 7% 5%; 
+ font-size: 1rem;
+ }
 
-.udvalg-t {
-  margin: 0 5% 7% 5%; 
-  font-size: 1rem;
-}
+ .mv-tekst {
+ font-size: 0.9rem;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 20%;
+ }
 
-.mv-tekst {
-  font-size: 0.9rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 20%;
-}
+ .no5 {
+ grid-column-start: 1;
+ grid-column-end: 2;
+ grid-row-start: 4;
+ grid-row-end: 5;
+ width: 100%;
+ } 
 
-
-
-.no5 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  width: 100%;
-} 
-
-.no6 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  width: 85%;
-} 
+ .no6 {
+ grid-column-start: 2;
+ grid-column-end: 3;
+ grid-row-start: 4;
+ grid-row-end: 5;
+ width: 85%;
+ } 
 
 
 
-/*Styling af footer */
-
+ /*Styling af footer */
  footer {
  background-color: #e9d9c3;
  text-align: center;
  padding-top: 20px;
-}
+ }
 
-.menu-footer h3 {
+ .menu-footer h3 {
  font-size: 1.5rem;
-}
+ }
 
-.menu-footer a {
+ .menu-footer a {
  color: #7f5849;
  text-decoration: none;
  font-family: "kozuka-gothic-pro", sans-serif;
  font-weight: 300;
- font-style: normal;
-}
+ font-style: normal; 
+ }
 
  footer ul {
  text-align: center;
-}
+ }
 
  footer li {
  list-style-type: none;
  margin: 10px 50px 10px 10px;
-}
+ }
 
-.some h3 {
+ .some h3 {
  font-size: 1.5rem;
-}
+ }
 
-.some img {
+ .some img {
  width: 10%;
  display: block;
  padding-left: 120px
-}
+ }
 
-.some a {
+ .some a {
  color: #7f5849;
  text-decoration: none;
  font-family: "kozuka-gothic-pro", sans-serif;
  font-weight: 300;
  font-style: normal;
-}
+ }
 
-.logo-footer {
+ .logo-footer {
  width: 40%;
  margin-right: 40px;
  margin-top: 40px;
-}
+ }
 
-footer p {
+ footer p {
  padding-bottom: 20px;
  padding-top: 20px;
-}
+ }
 
-/*-----------------------------------------------------------------------------*/
-/*BREAKPOINT 1*/
 
-@media screen and (max-width: 768px) and (min-width: 481px)
 
-{
+ /*-----------------------------------------------------------------------------*/
+ /*BREAKPOINT 1*/
+ @media screen and (max-width: 768px) and (min-width: 481px)
+ 
+ {
 
  .mobile-container {
  max-width: 768px;
  background-color: #f9f3ef;
-}
+ }
+
+ }
 
 
 
-}
-
-
-
-/*-----------------------------------------------------------------------------*/
-/*BREAKPOINT 2*/
-
-@media screen and (max-width: 1025px) and (min-width: 769px)
+ /*-----------------------------------------------------------------------------*/
+ /*BREAKPOINT 2*/
+ @media screen and (max-width: 1025px) and (min-width: 769px)
 
 {
 
  .mobile-container {
  max-width: 1025px;
- background-color:gold;
+ background-color: #f9f3ef;
  }   
 
  /*Styling af overskrifter og brødtekst*/ 
  h1 {
-  font-size: 3rem;
+ font-size: 3rem;
  }
 
  h2 {
-  font-size: 3rem;
-  }
+ font-size: 3rem;
+ }
   
  .proces-o {
-  font-size: 2.6rem;
+ font-size: 2.6rem;
  } 
 
  /*Styling af Illustrationer, Motion Graphics + sektioner med tekst*/
-
  .proces-video {
  width: 270px;  
  }
@@ -375,48 +367,44 @@ footer p {
  }
 
  .proces-tekst-venstre {
-  margin-left: 15%;
-  margin-right: 15%;
+ margin-left: 20%;
+ margin-right: 20%;
  }
 
  .proces-tekst-hojre {
-  margin-left: 5%;
-  margin-right: 5%;
+ margin-left: 10%;
+ margin-right: 10%;
  }
 
  .proces-tekst-midten {
  margin-left: 30%;
  margin-right: 30%;
-
  }
 
  }
 
 
 
+ /*-----------------------------------------------------------------------------*/
+ /*BREAKPOINT 3*/
+ @media screen and (max-width: 1200px) and (min-width: 1026px)
 
+ {
 
-
-/*-----------------------------------------------------------------------------*/
-/*BREAKPOINT 3*/
-
-@media screen and (max-width: 1200px) and (min-width: 1026px)
-
-{
  .mobile-container {
  max-width: 1200px;
- background-color:chartreuse;
+ background-color: #f9f3ef;
  }     
  
  /*Styling af overskrifter og brødtekst*/
 
  h1 {
-  font-size: 4rem;
+ font-size: 4rem;
  }
 
  h2 {
-  font-size: 4rem;
-  }
+ font-size: 4rem;
+ }
   
  .proces-o {
  font-size: 3rem;
@@ -427,102 +415,102 @@ footer p {
 }
 
 .mv-tekst {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20%;
-  font-size: 1.2rem;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 20%;
+ font-size: 1.2rem;
  }
 
  /* styling af billeder og tekst i grid*/
 
-.proces-img {
-  display: none;
-}
+ .proces-img {
+ display: none;
+ }
 
-.proces-video {
-  display: none;
-}
+ .proces-video {
+ display: none;
+ }
 
-.proces-img-vis-venstre {
-  display: flex;
-  width: 120px;
-  height: 120px;
-}
+ .proces-img-vis-venstre {
+ display: flex;
+ width: 120px;
+ height: 120px;
+ }
 
-.tekst-img {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  max-width: 70%;
-}
+ .tekst-img {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ max-width: 70%;
+ }
 
-.proces-tekst-venstre {
-  text-align: left;
-  margin-right: 10px;
-}
+ .proces-tekst-venstre {
+ text-align: left;
+ margin-right: 10px;
+ }
 
-.proces-img-vis-hojre {
-  display: flex;
-  width: 120px;
-  height: 120px;
-}
+ .proces-img-vis-hojre {
+ display: flex;
+ width: 120px;
+ height: 120px;
+ }
 
-.div-tekst {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  max-width: 70%;
-  margin-left: 20%;
-}
+ .div-tekst {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ max-width: 70%;
+ margin-left: 20%;
+ }
 
-.proces-tekst-hojre {
-  text-align: left;
-  margin-left: 10px;
-  padding-right: 0;
-}
+ .proces-tekst-hojre {
+ text-align: left;
+ margin-left: 10px;
+ padding-right: 0;
+ }
 
-.proces-video-vis-venstre {
-  display: flex;
-  width: 60%;
-}
+ .proces-video-vis-venstre {
+ display: flex;
+ width: 60%;
+ }
 
-.proces-video-vis-hojre {
-  display: flex;
-  width: 60%;
-}
+ .proces-video-vis-hojre {
+ display: flex;
+ width: 60%;
+ }
 
-#proces-video2 {
-  display: flex;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 50%;
-}
+ #proces-video2 {
+ display: flex;
+ margin-top: 50px;
+ margin-right: auto;
+ margin-left: auto;
+ width: 50%;
+ }
 
  .proces-tekst-midten{
  margin-left: 30%;
  margin-right: 30%;
-}
+ }
+
+ }
 
 
 
-}
+ /*-----------------------------------------------------------------------------*/
+ /*BREAKPOINT 4*/
+ @media screen and (max-width: 1600px) and (min-width: 1201px) 
 
+{
 
-
-/*-----------------------------------------------------------------------------*/
-/*BREAKPOINT 4*/
-
-@media screen and (max-width: 1600px) and (min-width: 1201px) {
  .mobile-container {
  max-width: 1600px;
- background-color: blue;
-  }
+ background-color: #f9f3ef;
+ }
 
-/*Styling af tekst*/
+ /*Styling af tekst*/
  h1 {
  font-size: 5rem;
-}
+ }
  
  .proces-o {
  font-size: 4rem;
@@ -532,88 +520,87 @@ footer p {
  font-size: 5rem;
  }
 
-.udvalg-o {
-    font-size: 4rem;
-}
-
-.mv-tekst {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20%;
- font-size: 1.5rem;
-}
-
-/* styling af billeder og tekst i grid*/
-
-.proces-img-vis-venstre {
-  display: flex;
-  width: 120px;
-  height: 120px;
-}
-
-.tekst-img {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  max-width: 70%;
-}
-
-.proces-tekst-venstre {
-  text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.proces-img {
-  display: none;
-}
-
-.proces-img-vis-hojre {
-  display: flex;
-  width: 120px;
-  height: 120px;
-}
-
-.div-tekst {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  max-width: 70%;
-  margin-left: 20%;
-}
-
-.proces-tekst-hojre {
-  text-align: left;
-  padding-right: 0;
-  margin-left: 7%;
-  margin-right: 7%;
-}
-
-.proces-video-vis-venstre {
-  display: flex;
-  width: 60%;
-}
-
-.proces-video-vis-hojre {
-  display: flex;
-  width: 60%;
-}
-
-.proces-video {
-  display: none;
-}
-
-#proces-video2 {
-  display: flex;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 50%;
-}
-
-.proces-tekst-midten{
-  margin-left: 38%;
-  margin-right: 38%;
+ .udvalg-o {
+ font-size: 4rem;
  }
 
-}
+ .mv-tekst {
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 20%;
+ font-size: 1.5rem;
+ }
+
+ /* styling af billeder og tekst i grid*/
+ .proces-img-vis-venstre {
+ display: flex;
+ width: 120px;
+ height: 120px;
+ }
+
+ .tekst-img {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ max-width: 70%;
+ }
+
+ .proces-tekst-venstre {
+ text-align: left;
+ margin-left: 8%;
+ margin-right: 8%;
+ }
+
+ .proces-img {
+ display: none;
+ }
+
+ .proces-img-vis-hojre {
+ display: flex;
+ width: 120px;
+ height: 120px;
+ }
+
+ .div-tekst {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ max-width: 70%;
+ margin-left: 20%;
+ }
+
+ .proces-tekst-hojre {
+ text-align: left;
+ padding-right: 0;
+ margin-left: 7%;
+ margin-right: 7%;
+ }
+
+ .proces-video-vis-venstre {
+ display: flex;
+ width: 60%;
+ }
+
+ .proces-video-vis-hojre {
+ display: flex;
+ width: 60%;
+ }
+
+ .proces-video {
+ display: none;
+ }
+
+ #proces-video2 {
+ display: flex;
+ margin-top: 50px;
+ margin-right: auto;
+ margin-left: auto;
+ width: 50%;
+ }
+
+ .proces-tekst-midten{
+ margin-left: 38%;
+ margin-right: 38%;
+ }
+
+ }

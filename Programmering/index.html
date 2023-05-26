@@ -7,8 +7,9 @@
     <title>Kildahls Keramik</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/mmd7apk.css">
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
@@ -46,17 +47,18 @@
 
 
         <section class="om-maria">
-            <img src="img/maria-vaerksted.jpg" alt="Maria ved drejebænken">
-            <h2 class="om-maria-overskrift">Om Maria</h2>
-            <p class="om-maria-tekst">
+            <div class="maria-forside-billede">
+            <img src="img/maria-vaerksted.jpg" alt="Maria ved drejebænken"></div>
+            <div class="maria-overskrift"><h2 class="om-maria-overskrift">Om Maria</h2></div>
+            <div class="maria-forside-tekst"><p class="om-maria-tekst">
             Jeg er helt forelsket i leret som materiale! 
             Det bedste jeg ved er at fordybe mig i at skabe keramik.
             <br> 
             <br>
             Mine nøgleord er:
             <br>
-            ”funktionalitet, detalje og elegance”</p>
-            <a href="html/om-maria.html" id="laer-mig">Lær mig bedre at kende</a>
+            ”funktionalitet, detalje og elegance”</p></div>
+            <div class="laer-mig-knap"><a href="html/om-maria.html" id="laer-mig">Lær mig bedre at kende</a></div>
         </section>
 
 
@@ -86,15 +88,7 @@
         <section class="kontakt">
             
             
-            <div id='map' style='width: 400px; height: 300px;'></div>
-
-            <script>
-                mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
-                var map = new mapboxgl.Map({
-                  container: 'map',
-                  style: 'mapbox://styles/mapbox/streets-v11'
-                });
-              </script>
+            <div id='map'></div>
 
             <h3 class="kontakt-overskrift">Kontakt</h3>
             <p class="kontakt-tekst">
