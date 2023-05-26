@@ -3,13 +3,15 @@
  h1 {
  text-align: center;
  font-size: 2.2rem;  
+ margin-top: 95px;
+ padding-top: 30px;
  }
 
  .proces-o {
  text-align: center;
  font-size: 2 rem;
- color: #ef7b32;
- margin-top: -25px; 
+ color: #ef7b32; 
+ margin-top: -40px;
  }
 
  /*Styling af grid + baggrundsbillede*/
@@ -38,10 +40,12 @@
 
  .proces-video-vis-venstre {
  display: none;
+ border-radius: 100%; 
  }
 
  .proces-video-vis-hojre {
  display: none;
+ border-radius: 100%; 
  }
 
  #proces-video2-vis {
@@ -54,7 +58,8 @@
  }
 
  .proces-video {
- width: 100%;  
+ width: 100%; 
+ border-radius: 100%; 
  }
 
  #proces-video2 {
@@ -64,12 +69,14 @@
  .proces-tekst-venstre {
  text-align:center;
  background-color: #f9f3ef;
+ border-radius: 20px;
  }
 
  .proces-tekst-hojre {
  text-align: center;
  padding-right: 50px;
  background-color: #f9f3ef;
+ border-radius: 20px;
  }
 
  .div-img {
@@ -186,7 +193,6 @@
 
  .mobile-container {
  max-width: 768px;
- background-color: #f9f3ef;
  }
 
  }
@@ -201,7 +207,6 @@
 
  .mobile-container {
  max-width: 1025px;
- background-color: #f9f3ef;
  }   
 
  /*Styling af overskrifter og brødtekst*/ 
@@ -258,7 +263,6 @@
 
  .mobile-container {
  max-width: 1200px;
- background-color: #f9f3ef;
  }     
  
  /*Styling af overskrifter og brødtekst*/
@@ -369,7 +373,6 @@
 
  .mobile-container {
  max-width: 1600px;
- background-color: #f9f3ef;
  }
 
  /*Styling af tekst*/
