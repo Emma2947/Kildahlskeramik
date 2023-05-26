@@ -50,20 +50,20 @@
                         -->
                         <form id="contactForm" onsubmit="submitForm(event)">
                             <!-- Formularfelter -->
-                        <label class="label"for="name">Navn:</label>
-                        <input class="input" type="text" id="name" name="name" required>
+                       
+                        <input id="label-name" class="input" type="text" id="name" name="name" placeholder="Navn"required>
                       
-                        <label class="label" for="email">Email:</label>
-                        <input class="input" type="email" id="email" name="email" required>
+                        
+                        <input id="label-email" class="input" type="email" id="email" name="email" placeholder="Email"required>
                       
-                        <label for="message">Besked:</label>
-                        <textarea class="input" id="message" name="message" required></textarea>
-                        <button  class="input" type="submit">Send</button>
+                        
+                        <textarea id="label-message" class="input" id="message" name="message" placeholder="Besked" required></textarea>
+
+                        <a href="comfirmation.html" id="link" class="hidden">
+                        <button class="label-send" class="input" type="submit">Send</button></a>
                         
                       </form>
-                    
-            <a href="comfirmation.html" id="link" class="hidden">Gå til ny side </a>
-  
+
                       <script src="kontakt.js"></script>
                     </section>
                     
@@ -94,7 +94,7 @@
                      
 
 
-                    <img src="img/bagggrund-illustration.svg" alt="Baggrunds Illustrationer" class="Illustrationer">
+                    <img class="baggrund"src="img/bagggrund-illustration.svg" alt="Baggrunds Illustrationer" class="Illustrationer">
                 <!--(hvor skal beskeden sendes hen -> dette skal programmeres)
                 
                 VIGTIGT: der må ikke komme 404 fejl når man trykker send 

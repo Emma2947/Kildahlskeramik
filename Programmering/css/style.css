@@ -128,9 +128,7 @@ nav a.icon {
 
 .om-maria img {
     width: 60%;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 100px;
+    display: center;;
     box-shadow: 0px 5px 15px -10px #7f5849;
 
 }
@@ -155,7 +153,20 @@ nav a.icon {
     border-radius: 10px;
 }
 
-/* forsøg på at få knap placeret i midten */
+/* forsøg på at få knap placeret i midten*/
+section.om-maria {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+p.om-maria-tekst {
+  padding-bottom: 10%;
+}
+
+
+
+
+/* forsøg på at få knap placeret i midten 
 .om-maria a {
 justify-content: center;
 display: flex;
@@ -164,6 +175,7 @@ margin-right: 95px;
 margin-top: 20px;
 margin-bottom: 30px;
 }
+*/
 
 .om-maria a:hover {
   font-size: 1.8rem;
@@ -273,8 +285,6 @@ margin-bottom: 30px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     }
-
-
 
   .kontakt {
     text-align: center;
@@ -393,9 +403,12 @@ margin-bottom: 30px;
   .mobile-container {
     max-width: 1025px;
     background-color:#ffb17d;
-    } 
+    }
+
+    
 }
 
+/*
 .om-maria img {
   width: 50%;
   margin-left: 25%;
@@ -414,7 +427,8 @@ margin-bottom: 30px;
 .kontakt-tekst {
   margin-left: 25%;
   margin-right: 25%;
-}
+} 
+*/
 
 
 /*BREAKPOINT 3*/
@@ -426,13 +440,20 @@ margin-bottom: 30px;
     background-color: #7a7a7a
     }     
     
+     /* .om-maria img {
+      width: 30%;
+      margin-top: 7%;
+      margin-bottom: -10%;
+      margin-left: 5%;
+      float: left;  kan ikke få billedet til at ligge til venstre grundet den skjulte margin
+    } 
+
     .om-maria img {
       width: 30%;
       margin-top: 7%;
       margin-bottom: -10%;
       margin-left: 5%;
-      /* float: left;  kan ikke få billedet til at ligge til venstre grundet den skjulte margin*/
-
+      display: flex;
     }
 
 
@@ -440,7 +461,7 @@ margin-bottom: 30px;
       display: flex;
       align-items: center;
     }
-
+    */
 
 }
 

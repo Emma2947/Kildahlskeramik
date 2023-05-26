@@ -72,86 +72,7 @@ body {
         top: 10px;
     }
 /*styling af indhold*/
-  /*----------------------BREAKPOINTS-----------*/
-          /*breakpoint 1 */
-          @media screen and (max-width: 768px) and (min-width:481px)
-          {
-            .mobile-container{
-              max-width: 768px;
-            }
-          }
 
-
-
-  /*--------------------------------------------*/
-            /*breakpoint 2 */
-            @media screen and (max-width: 1025px) and (min-width:769px)
-            {
-              .mobile-container {
-                max-width: 1025px;
-                background-color:gold;
-                }   
-               
-                .h1 {
-                 font-size: 3rem;
-                }
-
-                .h2 {
-                 font-size: 3rem;
-                 }
-                 
-                .p {
-                 font-size: 2.6rem;
-                } 
-                .h4 {
-                  font-size: 2.6rem;
-                 } 
-/*Styling af Illustrationer, Motion Graphics + sektionen*/
-
-.formular-knapper {
-  width: 270px;  
- }
-
- .formular-knapper {
-  width: 400px;  
- }
-
- .formular-knapper{
-  height: 180px;
-  width: 180px;
-  }
-
-  .formular-knapper {
-   margin-left: 15%;
-   margin-right: 15%;
-  }
- 
-  .formular-knapper {
-   margin-left: 5%;
-   margin-right: 5%;
-  }
- 
-  .formular-knapper {
-  margin-left: 50%;
-  margin-right: 50%;
- }
- 
-  }
-  
-        /*breakpoint 3 */
-        @media screen and (max-width: 1200px) and (min-width:1026px)
-        {
-          .mobile-container{
-            max-width: 1200px;
-          }
-        }
-          /*breakpoint 4 */
-        @media screen and (max-width: 1600px) and (min-width:1201px){
-          .mobile-container{
-            max-width: 1600px;
-          }
-        }
-/*-----------------------------------------*/
 
     .kontakt
       { 
@@ -177,7 +98,6 @@ body {
     .formular-knapper
     { text-decoration: none;
       color:#7f5849;
-      /* color: #ef7b32;*/
       padding: 2px 10px;
       font-size: 1.7rem;
       border-radius: 10px;
@@ -200,12 +120,23 @@ body {
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        margin-top: 20px;
+        font-family: "kozuka-gothic-pro", sans-serif;
+        font-weight: 300;
+        font-style: normal;
       }
       .input:hover{
        color: #f9f3ef; 
       }
 
-      .label{
+      .label-name{
+        color: #7f5849;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .label-email{
         color: #7f5849;
         padding: 12px 20px;
         border: none;
@@ -213,6 +144,32 @@ body {
         cursor: pointer;
       }
 
+      .label-message{
+        color: #7f5849;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+       
+      }
+      
+      .label-send{
+        text-decoration: none;
+        color: #ef7b32;
+        background-color:#e9d9c3;
+        border-radius: 10px;
+        padding: 0px 10px 5px 10px;
+        font-size: 1.7rem;
+        font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-style: normal;
+      }
+    
+     .label-send:hover{
+        color: #f9f3ef;
+        font-size: 1.8rem
+      }
 
     /*Styling af pop-up confirmation*/
     .confirmation-message {
@@ -235,15 +192,17 @@ body {
 
 
  /*Styling af markedskalender*/
-     .kalender {
-      height: 200px;
-    }
+     
     
      .markedskalender{
       background-color: #f8c576;
       text-align: center;
       padding: 0px 20px 40px 20px;
   }
+  .kalender{
+    height:150px
+  }
+
       .popup {
         position: relative;
         display: inline-block;
@@ -305,6 +264,9 @@ body {
     font-size: 1.8rem
   }
   
+  .conformation-tekst{
+    font-size: 100px;
+  }
      /* Footer */
 
   footer {
@@ -363,3 +325,189 @@ body {
     padding-top: 20px;
   }
   
+    /*----------------------BREAKPOINTS-----------*/
+          /*breakpoint 1 */
+          @media screen and (max-width: 768px) and (min-width:481px)
+          {
+            .mobile-container{
+              max-width: 768px;
+            }
+    
+            .popup .popuptext {
+              width: 200px; 
+
+            
+          }
+          .label-send{
+            padding: 2px 15px 8px 15px;
+          }
+    
+          .kalender{
+            height: 300px;
+          }
+          }
+
+
+
+  /*--------------------------------------------*/
+            /*breakpoint 2 */
+            @media screen and (max-width: 1025px) and (min-width:769px)
+            {
+              .mobile-container {
+                max-width: 1025px;
+                }   
+               
+                .h1 {
+                 font-size: 3rem;
+                }
+
+                .h2 {
+                 font-size: 3rem;
+                 }
+                 
+                .p {
+                 font-size: 1.8rem;
+                } 
+                .h4 {
+                  font-size: 3rem;
+                 } 
+/*Styling af Illustrationer, Motion Graphics + sektionen*/
+.kontakt{
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 15%;
+}
+
+
+.formular-knapper
+    {
+      padding: 2px 10px;
+      font-size: 1.7rem;
+      border-radius: 10px;
+    }
+    .popup .popuptext {
+      width: 300px; 
+  }
+  .kalender{
+    height: 400px;
+  }
+ 
+  }
+  
+        /*breakpoint 3 */
+        @media screen and (max-width: 1200px) and (min-width:1026px)
+        {
+          .mobile-container{
+            max-width: 1200px;
+          }
+          /*Styling af tekst*/
+          .h1 {
+            font-size: 4rem;
+           }
+
+           .h2 {
+            font-size: 4rem;
+            }
+            
+           .p {
+            font-size: 2rem;
+           } 
+           .h4 {
+             font-size: 3rem;
+            } 
+
+/*Styling af Illustrationer, sektionen*/
+.kontakt{
+padding-left: 30%;
+padding-right: 30%;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.kalender {
+  height: 400px;
+}
+.markedskalender
+{
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  }
+
+  .popup .popuptext {
+    width: 400px; 
+}
+.formular-knapper
+{
+ padding: 2px 10px;
+ font-size: 2.7rem;
+ border-radius: 10px;
+}
+.baggrund{
+  height: 300px;
+}
+
+        }
+          /*breakpoint 4 */
+        @media screen and (max-width: 1600px) and (min-width:1201px){
+          .mobile-container{
+            max-width: 1600px;
+          }
+            /*Styling af tekst*/
+          .h1 {
+            font-size: 5rem;
+           }
+
+           .h2 {
+            font-size: 5rem;
+            }
+            
+           .p {
+            font-size: 3.6rem;
+           } 
+           .h4 {
+             font-size: 4rem;
+            } 
+          
+ 
+/*Styling af Illustrationer, sektionen*/
+.kontakt{
+padding-left: 30%;
+padding-right: 30%;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.kalender {
+  height: 600px;
+}
+.markedskalender
+{
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 30%;
+  margin-bottom: 15%;
+}
+.kalender{
+  padding-right: 800px;
+  margin:auto;
+}
+  .popup .popuptext {
+    width: 500px; 
+
+}
+.baggrund{
+  height: 300px;
+}
+.popup{
+  text-align: center;
+}
+.popup {
+  position: center;
+}
+
+.popup .popuptext {
+  width: 800px; 
+  text-align: center;
+}
+}
+/*-----------------------------------------*/
