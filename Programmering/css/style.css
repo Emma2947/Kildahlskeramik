@@ -32,9 +32,6 @@ font-style: normal;
     position: relative;
   }
 
-  .mit-keramik a:hover {
-    font-size: 1.8rem;
-  }
 
 /*Styling af Navigationen og burgermenuen*/
 
@@ -164,23 +161,6 @@ p.om-maria-tekst {
 }
 
 
-
-
-/* forsøg på at få knap placeret i midten 
-.om-maria a {
-justify-content: center;
-display: flex;
-margin-left: 95px;
-margin-right: 95px;
-margin-top: 20px;
-margin-bottom: 30px;
-}
-*/
-
-.om-maria a:hover {
-  font-size: 1.8rem;
-}
-
 /* Proces */
 
 .proces {
@@ -212,9 +192,6 @@ margin-bottom: 30px;
     border-radius: 10px;
 }
 
-.proces a:hover {
-  font-size: 1.8rem;
-}
 
 
 /* styling billede af Maria i Nr.4 */
@@ -286,9 +263,6 @@ margin-bottom: 30px;
     border-radius: 10px;
   }
 
-  .kontakt a:hover {
-    font-size: 1.8rem;
-  }
 
   /* Footer */
 
@@ -382,7 +356,48 @@ margin-bottom: 30px;
     background-color:#ffb17d;
     }
 
+    /* mit keramik knap*/
     
+    .mit-keramik a {
+      padding: 3px 10px;
+      font-size: 2.5rem;
+      float: right;
+      margin-right: 50px;
+      margin-top: -110px;
+      z-index: 1000;
+
+}
+
+/* styling af billede og tekst i om maria */
+
+.maria-forside-billede {
+  width: 170%;
+}
+
+.om-maria {
+  display: flex;
+  padding-top: 60px;
+}
+
+.om-maria-overskrift-tekst-knap {
+  text-align: left;
+
+}
+
+.om-maria-overskrift {
+  text-align: left;
+}
+
+.om-maria-tekst {
+  text-align: left;
+  margin: 0%;
+}
+
+p.om-maria-tekst {
+  margin-right: 35%;
+}
+
+
 }
 
 /*
