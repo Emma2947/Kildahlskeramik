@@ -2,6 +2,7 @@ body {
 font-family: "baskerville-urw", serif;
 font-weight: 400;
 font-style: normal;
+margin: 0;
 }
     p {
         font-family: "kozuka-gothic-pro", sans-serif;
@@ -96,7 +97,7 @@ nav a.icon {
     border-radius: 10px;
     float: right;
     margin-right: 20px;
-    margin-top: -65px;
+    margin-top: -57px;
     z-index: 1000;
 }
 
@@ -396,4 +397,14 @@ footer p {
     max-width: 1025px;
     min-width: 769px;
   }
+  .logo {
+    width: 110px;
+    margin-top: -5px;
+  }
+  .fa {
+    font-size: 45px;
+    margin-right: 25px;
+  }
+
+  
 }
