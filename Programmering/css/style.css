@@ -483,7 +483,7 @@ nav li {
   }
 
   #menu a {
-   font-size: 1.7rem; 
+   font-size: 1.9rem; 
     transition: transform 0.3s ease-in-out;
   }
 
@@ -493,6 +493,7 @@ nav li {
 
   .logo {
     width: 120px;
+    margin-left: 30px;
   }
 
 }
