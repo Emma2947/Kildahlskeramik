@@ -331,7 +331,7 @@
 .p 
 {font-size: 3.6rem;} 
 
-.h4 {font-size: 4rem;} 
+.måned {font-size: 1.8rem;} 
           
  
 /*Styling af Illustrationer, sektionen*/
@@ -352,17 +352,16 @@ margin-right: 60px;
 
 .kontakt {
 background-image: url(/Programmering/img/baggrund-illustration.svg);
-background-size: cover
-background-position: center;
-height: 100vh;
-margin-bottom: 0%;
+background-size: cover;
 }
 .markedskalender
 {
   margin-top: 0%;
   margin-bottom: 15%;
 }
-
+.markedsoverskrift{
+  font-size: 2.4rem;
+}
 .kalender
 {
   align-content: center;
@@ -453,10 +452,31 @@ margin-bottom: 0%;
   width: 20%;
 }
 .section-wrapperto{
-max-width: 800px;
+max-width: 600px;
 margin: auto;
-padding-right: 20%;
+padding-right: 10%;
+padding-left: 50%;
+margin:5%;
 
+}
+.nr4 {
+  padding: 0px 0px 0px 0px;
+  text-align:left;
+  margin-bottom: 20px;
+}
+.nr4-overskrift {
+ font-size: 2.4rem;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin: 0px 15px 10px 15px;
+
+}
+
+.nr4-tekst {
+  text-align: left;
+  margin: 0% 0%;
 }
 }
 /*-----------------------------------------*/
