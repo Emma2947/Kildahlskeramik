@@ -252,7 +252,7 @@ h1 {
     margin: 0px 30px 25px 30px;
   }
 
-  .kontakt a {
+  .tekst-sektion a {
     text-decoration: none;
     color: #ef7b32;
     background-color: #e9d9c3;
@@ -406,5 +406,93 @@ footer p {
     margin-right: 25px;
   }
 
+  #menu a {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .mit-keramik a {
+    font-size: 2.5rem;
+    margin-top: -110px;
+    margin-right: 50px;
+  }
+
+  .billede {
+    margin-top: 30px;
+  }
   
+  .om-maria-overskrift{
+    font-size: 2.5rem;
+  }
+
+  .om-maria-tekst {
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 80%;
+  }
+
+  .proces img {
+    width: 70%;
+  }
+
+  .proces-overskrift {
+    font-size: 2.5rem;
+  }
+
+  
+    #map {
+      margin-left: 17%;
+      width: 65%;
+    }
+
+}
+
+
+/* Breakpoint 3 */
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .mobile-container {
+    max-width: 1200px;
+    min-width: 1025px;
+  }
+
+
+  .topindhold {
+    overflow: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-right: 3%;
+  }
+
+nav li {
+    margin-right: 4%;
+  }
+
+  #menu a {
+   font-size: 1.7rem; 
+    transition: transform 0.3s ease-in-out;
+  }
+
+  nav li:hover {
+    transform: scale(1.1) !important;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
 }
